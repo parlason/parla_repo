@@ -1,0 +1,13 @@
+name = Languages-features
+description = Languages used in PARLA site
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = languages_features
+dependencies[] = features
+dependencies[] = locale
+features[features_api][] = api:2
+features[language][] = da
+features[language][] = en
+features[language][] = es
+project path = sites/all/modules

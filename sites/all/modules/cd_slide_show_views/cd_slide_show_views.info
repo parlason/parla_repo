@@ -1,0 +1,13 @@
+name = CD slide show Views
+description = CD slide show used in PARLA site
+core = 7.x
+package = Features
+version = 7.x-2.0
+project = cd_slide_show_views
+dependencies[] = views
+dependencies[] = views_slideshow
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = cd_slideshow
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules

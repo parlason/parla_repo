@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Press gallery view feature.
+ */
+
+include_once 'press_gallery_view.features.inc';

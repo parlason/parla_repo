@@ -1,0 +1,446 @@
+/* HEADER */
+
+#name-and-slogan { /* Wrapper for website name and slogan */
+  float: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1.4em;
+  left: -7.75em;
+}
+
+
+#site-name { /* The name of the website */
+  margin: 0;
+  font-size: 2.9em;
+  letter-spacing: 0.1em;
+line-height: 1.5em;
+} 
+
+/* ____________________________________________________________________ */
+
+/* SECOND SIDE MENU */
+
+#subscription-block {
+border: 0px solid grey;
+padding: 15px;
+position: relative;
+top: -430px;
+left: 48px;
+width: 170px;
+padding-bottom: 0px;
+margin-bottom: 20px;
+}
+
+
+/* -------------------------------------------------- */
+
+/* SONGBOOK page */
+
+#collapse-text-text h2 {
+	position: relative;
+	left: -0.3em;
+	font-size: 1.4em;
+	}
+
+.collapse-text-fieldset h2 {
+	font-size: 1.4em;
+	margin-top: 0em;
+	line-height: 1.5em;
+	}
+	
+.front .collapse-text-text h2 {
+	position: relative;
+	left: -0.3em;
+	font-size: 1.7em;
+	}
+	
+.front #collapse-text-background {
+	width: 613px;
+	border: 1px solid;
+	border-radius: 7px;
+
+	}
+	
+.front fieldset.collapse-text-fieldset {
+border: 0px;
+}
+
+.front #collapse-text-text {
+	padding-top: 1.2em;
+	}
+	
+.front .field-name-body {
+	position: relative;
+	left: 25px;
+	top: -3.0em;
+	width: 39em;
+	}
+	
+/* ____________________________________________________________________ */
+
+
+/* CONCERT page */
+
+.collapse-text-fieldset h2 {
+	font-size: 1.4em;
+	margin-top: 0em;
+	line-height: 1.5em;
+	}
+	
+.collapse-text-text h2 {
+	position: relative;
+	left: -0.3em;
+	font-size: 1.9em;
+	}
+	
+.collapse-text-text #concert-program h2 {
+	position: relative;
+	top: 0.1em;
+	left: 0.85em;
+	}
+
+.section-concert table.views-view-grid {
+	position: relative;
+	top: -0.4em;
+	left: 2.3em;
+	}
+	
+.section-concert table.views-view-grid td {
+	padding-right: 15px;
+	}
+	
+.section-concert table.views-view-grid td img{
+	border: 1px solid grey;
+	}
+	
+.section-concert .date-venue-concert-page {
+	position: relative;
+	top: -1.0em;
+	left: -0.5em;
+	}
+	
+.section-concert .download-pdf-concert-page {
+	position: relative;
+	top: -3.9em;
+	left: -0.5em;
+	}
+	
+.section-concert #collapse-text-background {
+	width: 613px;
+	height: 43%;
+	border: 1px solid;
+	border-radius: 7px;
+	}
+	
+.section-concert .trans-back-concert-page {
+	display: block;
+	width: 613px;
+	}
+	
+.section-concert fieldset.collapse-text-fieldset {
+border: 0px solid grey;
+}
+
+.section-concert #collapse-text-text {
+	padding-top: 1.2em;
+	width: 35em;
+	}
+	
+.section-concert .download-pdf-concert-page a {
+	color: green;
+	}
+	
+	
+.section-concert #concert_programs-block .item-list {
+	position: relative;
+	top: -65px;
+	left: -37px;
+	padding: 2em;
+	padding-left: 0.5em;
+	padding-right: 3.2em;
+	background-color: black;
+	opacity: 0.6;
+	border: 1px solid;
+	border-radius:7px;
+	}
+
+.section-concert #concert_programs-block .item-list p {
+	position: relative;
+	top: -0.5em;
+	color: white;
+	margin: 0em;
+	}
+
+.section-concert .collapse-text-text ul {
+	font-family: 'EB Garamond';
+	font-style: normal;
+	font-weight: normal;
+	}
+	
+p#collaboration {
+	position: relative;
+	top: -37em;
+	left: 4em;
+	width: 12em;
+	color: #808080;
+	}
+	
+.section-concert .field-name-body {
+	position: relative;
+	left: 25px;
+	top: -3.4em;
+	width: 39em;
+	}
+	
+/* ____________________________________________________________________ */
+
+
+/* PARTICIPANTS page */
+
+/* body.section-participants #block-views-musician-cv-block, #block-views-musician-cv-block-1 {
+position: relative;
+top: -1.9em;
+} */
+
+
+body.section-participants .views-slideshow-pager-fields {
+position: relative;
+left: 553px;
+top: 0;
+width: 150px;
+z-index: 3;
+padding-bottom: 20px;
+}
+
+.views-content-field-cv-photo-thumbnail {
+	position: relative;
+	top: -263px;
+	}
+
+.section-participants .views-slideshow-pager-field-item {
+padding-bottom: 3px;
+}
+
+body.section-participants .views_slideshow_main {
+display: block;
+width: 600px;
+position: relative;
+top: -38px;
+left: 20px;
+}
+
+.views-slideshow-cycle-main-frame-row-item .views-field-title {
+/* Necessary to expand the in-line width by jquery */
+width: 530px;
+}
+
+.cv-title-transparent {
+	background-color: green;
+	height: 34px;
+	left: -0px;
+	opacity: 0.4;
+	position: relative;
+	top: -40px;
+	width: 250px;
+	z-index: 3;
+	}
+
+.cv-title {
+	font-family: josefin-sans, sans-serif;
+	font-size: 1.4em;
+	color: white;
+	font-weight: 600;
+	position: relative;
+	top: -35px;
+	left: 3px;
+	z-index: 4;
+}
+
+/* .flexslider .slides img {width: auto; display: block;} */
+
+.section-participants .fieldset-title {
+	position: relative;
+	top: -0.0em;
+	}
+
+.views-field-field-cv-text {
+	position: relative;
+	height: 30em;
+	width: 31.0em;
+	}
+
+.views-field-field-cv-text .collapse-text-background {
+	margin-left: -16px;
+	position: absolute;
+	top: 0.8em;
+	background-color: #808080;
+	opacity: 0.2;
+	width: 509px;
+	height: 95%;
+	border: 1px solid;
+	border-radius: 7px;
+}
+
+ a:hover {
+	color: #808080;
+	}
+
+.views-field-field-cv-text .collapse-text-text {
+	padding-top: 0em;
+	}
+
+.section-participants .book-navigation {
+position: relative;
+top: 5em;
+margin-bottom: 50px;
+}
+
+.collapse-text-text ul {
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: normal;
+}
+
+.section-participants .field-content a:hover {
+color: #808080;
+}
+
+.section-participants .collapse-text-text {
+width: 510px;
+padding-top: 0em;
+}
+
+.section-participants .fieldset-wrapper .collapse-text-text {
+position: relative;
+top: -1.0em;
+width: 460px;
+padding-top: 1.5em;
+padding-left: 0.5em;
+padding-bottom: 0.5em;
+}
+
+.section-participants .fieldset-wrapper {
+position: relative;
+top: 0em;
+}
+
+body.section-participants fieldset.collapse-text-fieldset {
+position: relative;
+top: -0.5em;
+border: 0px;
+margin: 0;
+}
+
+.views-field-field-cv-photo-first {
+	padding-right: 12px;
+	}
+
+.view-musician-cv {
+ 	position: relative;
+ 	top: 24px;
+ 	left: 10px;
+ 	}
+
+/* ____________________________________________________________________ */
+
+
+
+/* PRESS TEXT page */
+
+.node-type-press-text .node-press-text {
+	position: relative;
+	top: -2em;
+	}
+
+.node-type-press-text .field-name-field-link-to-downloadable-text {
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: normal;
+}
+
+.node-type-press-text .field-name-field-link-to-downloadable-text a {
+color: #808080;
+}
+
+
+/* ____________________________________________________________________ */
+
+
+
+/* PRESS page */
+
+.section-press .view-press-photo-gallery {
+position: relative;
+	left: 20px;
+	width: 625px;
+	}
+	
+	
+.section-press .view-press-text-gallery {
+position: relative;
+	left: 20px;
+	top: 20px;
+	width: 625px;
+	}	
+
+.section-press .views-row {
+	display: inline-block;
+	}
+
+.section-press article.node-page {
+position: relative;
+top: -4em;
+left: 15px;
+}
+
+
+#text-gallery-block {
+width: 600px;
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: normal;
+}
+
+
+#text-gallery-block a{
+color: #808080;
+}
+
+#text-gallery-block .views-row-first {
+position: relative;
+clear: both;
+top: 1em;
+}
+
+
+.section-press .field-items {
+position: relative;
+top: 2em;
+}
+
+.section-press .text-header	{
+width: 30em;
+}
+
+.views-field-field-photo-horizontal, .views-field-field-photo-vertical {
+	padding-right: 5px;
+	}
+
+
+/* ____________________________________________________________________ */
+
+/* SECOND SIDE MENU *(
+
+#subscription-block {
+border: 0px solid grey;
+padding: 15px;
+position: relative;
+top: -430px;
+left: 48px;
+width: 170px;
+padding-bottom: 0px;
+margin-bottom: 20px;
+}
+	

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the CD slide show Views feature.
+ */
+
+include_once 'cd_slide_show_views.features.inc';

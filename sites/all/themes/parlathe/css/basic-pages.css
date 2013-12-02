@@ -1,0 +1,565 @@
+
+
+/* Via Artis Konsort page */
+
+.views-slideshow-cycle-main-frame {
+	width: 100%;
+	max-height: 220px;
+	margin-top: -10px;
+	margin-bottom: 5px;
+	margin-right: 20px;
+	float: left;
+	}
+	
+.embedded-photo-text {
+	position: relative;
+	top: -3.4em;
+	left: 1.5em;
+	font-size: 0.7em;
+	color: white;
+	}
+	
+#text-second-part {
+	position: relative;
+	top: -1.4em;
+	}
+	
+.embedded-photo-text-background {
+	display: block;
+	position: absolute;
+	background-color: black;
+    height: 31px;
+    width: 300px;
+    top: 10.8em;
+    left: 0.1em;
+    opacity: 0.4;
+    }
+    
+#via-artis-konsort-presentation {
+	position: relative;
+	top: -2.2em;
+	left: 2em;
+	width: auto;
+	padding-right: 1.5em;/* 41em; */
+	}
+
+
+.embedded-photo img {
+	border: 1px solid black;
+	}
+	
+.main-text {
+	font-size: 108%;
+	line-height: 1.7em;
+	color: #383838;
+	}
+
+.main-text a {
+	color: grey;
+	}
+
+/* ____________________________________________________________________ */
+
+
+/* Contact page */
+
+.section-contact article.node-page {
+position: relative;
+top: -3.4em;
+left: 2em;
+}
+
+.contact-text {
+width: 40em;
+}
+
+.contact-text a {
+color: #808080;
+}
+
+#contact-denmark {
+width: 18.8em;
+border-right: 1px solid #808080;
+margin-right: 40px;
+float: left;
+}
+
+.contact-header {
+text-decoration: underline;
+margin-bottom: 1em;
+position: relative;
+top: 0.7em;
+}
+
+.contact-page {
+position: relative;
+top: 0.65em;
+margin-bottom: 7em;
+}
+
+/* ____________________________________________________________________ */
+
+
+/* Concert theme page */
+.theme-link-text {
+	position: relative;
+	top: 287px; /* 12.8em; */
+	left: 0.5em;
+	font-family: "de-walpergens-pica", serif;
+	font-family: josefin-sans, sans-serif;
+	font-size: 1.4em;
+	letter-spacing: 0.1em;
+	font-weight: 900;
+	color: white;
+	}
+	
+.theme-link-text a {
+	color: white;
+	}
+	
+.field-content a:hover {
+	color: white;
+	}
+
+#theme-transparent-background-titleXX {
+	/* display: block; */
+	position: absolute;
+	background-color: black;
+    height: 31px;
+    width: 50%;
+    top: 1.6em;
+    left: 0em;
+    opacity: 0.4;
+    }
+    
+    
+.theme-presentation-text {
+	display: block;
+	position: relative;
+	top: -7.0em;
+	left: 1em;
+	font-size: 0.9em;
+	color: white;
+	width: 570px; /* 38.5em; */
+	}
+
+.theme-presentation-text p {	
+	font-family: "Courier New", "DejaVu Sans Mono", monospace;
+	}
+
+	
+.theme-presentation-text a {
+	color: white;
+	}
+
+
+.theme-transparent-background-text {
+	display: block;
+	position: absolute;
+	background-color: black;
+    height: 100px;
+    width: 100%;
+    top: 75%; /* 318px; */
+    left: 0em;
+    opacity: 0.4;
+    }
+    
+.widget_pager_bottom  {
+	position: absolute;
+	top: 415px;
+	z-index: 10;
+	width: 600px;
+	}
+   
+	
+.views-slideshow-pager-field-item {
+	display: inline-block;
+	padding-right: 5px;	
+	}
+
+.view-concert-theme-slide-show {
+	position: relative;
+	top: -2.5em;
+	left: 2em;
+	}
+	
+.section-concert-theme #block-block-11, .section-concert-theme #block-block-12 {
+	position: relative;
+	top: 14.5em;
+	left: 2em;
+	width: 37em;
+	}
+	
+.section-concert-theme #collapse-text-background {
+	position: absolute;
+	background-color: #808080;
+	opacity: 0.2;
+	height: 80%;
+	width: 576px;
+	border: 1px solid;
+	border-radius: 7px;
+	}
+	
+.section-concert-theme .collapse-text-fieldset {
+	border: 0px;
+	position: relative;
+	top: -1em;
+	}
+	
+.section-concert-theme #collapse-text-text {
+	position: relative;
+	top: -0.8em;
+	}
+	
+.section-concert-theme p.text-header {
+	font-size: 1.2em;
+	position: relative;
+	left: 0.6em;
+	color: #585858;
+}
+
+.section-concert-theme p.text-header#in-english {
+	left: 0em;
+	}
+
+.section-concert-theme .collapsible a.fieldset-title {
+	font-size: 1.2em;
+}
+
+.views-field-field-theme-image a:hover {
+	text-decoration: none;
+	}
+	
+.views-field-field-theme-image	.theme-link-text a:hover {
+	text-decoration: underline;
+	}
+
+/* ____________________________________________________________________ */
+
+
+/* Recordings page */
+
+.view-cd-slideshow {
+position: relative;
+top: -5.5em;
+left: 0.7em;
+}
+
+
+.views-content-field-front-cover-thumbnail img {
+border: 1px solid #808080;
+}
+
+.section-recordings .views-slideshow-pager-fields {
+position: relative;
+left: 537px;
+top: 63px;
+width: 150px;
+z-index: 3;
+}
+
+.section-recordings .views-slideshow-cycle-main-frame {
+display: block;
+width: 600px;
+position: relative;
+top: -193px;
+left: 20px;
+}
+
+.section-recordings .views-slideshow-cycle-main-frame img {
+border: 1px solid #808080;
+}
+
+p.cd-slideshow-tekst {
+position: relative;
+top: 2.5em;
+width: 510px;
+}
+
+.cd-title-background-transparent {
+position: absolute;
+top: -3px;
+left: 0px;
+background-color: black;
+height: 29px;
+opacity: 0.4;
+width: 509px;
+z-index: 3;
+}
+
+.cd-title {
+font-family: josefin-sans, sans-serif;
+font-size: 1.4em;
+color: white;
+font-weight: 600;
+position: relative;
+top: -0px;
+left: 30px;
+width: 400px;
+z-index: 4;
+}
+
+.cd-link {
+position: relative;
+top: 2em;
+}
+
+.views-field-field-cd-link a {
+display: block;
+max-width: 510px;
+font-style: italic;
+color: black;
+}
+
+.section-recordings .book-navigation {
+position: relative;
+top: -200px;
+}
+
+/* ____________________________________________________________________ */
+
+/* Blog page */
+
+.view-frontpage {
+position: relative;
+top: -3.7em;
+left: 2em;
+}
+
+article.node-teaser {
+border-bottom: 1px solid #808080;
+width: 37em;
+}
+
+article.node-teaser h2.node-title a {
+color: #808080;
+font-size: 0.8em;
+} 
+
+article.node-teaser a {
+color: #808080;
+}    
+
+article.node-teaser .field-name-field-video-link {
+margin-left: 15px;
+}
+
+article.node-teaser	.field-name-field-video-text {
+width: 35em;
+margin-top: 1.5em;
+}
+
+.section-blog a.translation-link {
+visibility: visible;
+}
+
+.section-blog p#teaser-text {
+font-family: 'EB Garamond';
+font-style: normal;
+font-size: 1em;
+font-weight: normal;
+}
+
+.node-teaser ul.links {
+font-size: 0.9em;
+font-family: josefin-sans, san-serif;
+}
+
+/* ____________________________________________________________________ */
+
+/* Video page */
+
+.section-video article.node-page {
+position: relative;
+top: -1em;
+}
+
+#block-views-video-index-block table td {
+}
+
+.views-field-field-video-link img {
+border: 1px solid #808080;
+margin-right: 7px;
+}
+
+.video-index-title {
+position: absolute;
+top: 124px;
+left: 7px;
+z-index: 4;
+color: white;
+-o-text-overflow: ellipsis;   /* Opera */
+text-overflow:    ellipsis;   /* IE, Safari (WebKit) */
+overflow:hidden;              /* don't show excess chars */
+white-space:nowrap;           /* force single line */
+width: 13em;/* 180px; */ /* fixed width */
+font-size: 0.7em;
+} 
+
+.video-index-title a:link {
+color: white;
+}
+
+.field-content {
+position: relative;
+} 
+
+.video-index-title-background-transparent {
+display: block;
+background-color: green;
+height: 19px;
+left: -0px;
+opacity: 0.6;
+position: absolute;
+top: 128px; 
+width: 194px; 
+z-index: 3;
+}
+
+.view-video-index .views-field-title {
+height: 0em;
+}
+
+.section-video .field-items {
+position: relative;
+top: 2em;
+left: 15px;
+}
+
+.section-video .book-navigation {
+position: relative;
+top: 5em;
+}
+
+.section-video .text-header	{
+position: relative;
+top: -2.4em;
+width: 30em;
+color: #383838;
+}
+
+ .section-video .view-video-index {
+	position: relative;
+	top: -3.5em;
+	left: 2.0em;
+	} 
+
+/* ____________________________________________________________________ */
+	
+
+/* Single video page */
+
+.section-video .node-video-page {
+position: relative;
+top: -5.1em;
+}
+
+.node-type-video-page p#via-artis-link {
+position: relative;
+top: -2.2em;
+}
+
+.node-type-video-page #page-title {
+position: relative;
+font-size: 1.7em;
+letter-spacing: 0.1em;
+}
+
+.node-type-video-page .media-youtube-video {
+position: relative;
+top: 2.5em;
+}
+
+.node-type-video-page .field-name-field-video-text {
+position: relative;
+top: 4em;
+left: 0.7em;
+width: 580px;
+margin-bottom: 2em;
+}
+
+.field-name-field-video-text a {
+color: #808080;
+}
+
+/* ____________________________________________________________________ */
+
+
+/* Post page */
+.node-type-post #page-title {
+font-size: 1.7em;
+letter-spacing: 0.1em;
+position: relative;
+top: -0.7em;
+}
+
+p#subtitle {
+font-family: josefin-sans;
+font-size: 1.1em;
+position: relative;
+top: -3.6em;
+}
+
+.section-post p#teaser-text {
+font-family: "de-walpergens-pica";
+font-size: 1.3em;
+width: 31em;
+position: relative;
+top: -2em;
+left: 0.7em;
+}
+
+
+h2.section-title {
+font-size: 1.5em;
+}
+
+.section-post .node-post {
+position: relative;
+top: 1.5em;
+padding-bottom: 6em;
+}
+	
+.section-post #text-background {
+background-color: #808080;
+opacity: 0.1;
+position: absolute;
+left: 0em;
+top: -0.5em;
+width: 650px;
+height: 105%;
+margin-top: -15px;
+z-index: -10;
+}
+
+.section-post .field-type-text-long {
+position: relative;
+top: -1em;
+width: 37em;
+padding-left: 1.2em;
+padding-bottom: 1.5em;
+
+}
+
+p.body-text, #bc-player, #section-title {
+padding-left: 15px;
+}
+
+#bc-player {
+z-index: 10;
+}
+
+.section-post h2#section-title {
+color: #696969;
+}
+
+
+/* ____________________________________________________________________ */
+
+/* FB page */
+
+#fb-page {
+	position: relative;
+	top: -1.5em;
+	left: 2em;
+	}

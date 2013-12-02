@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Musician CV Views feature.
+ */
+
+include_once 'musician_cv_views.features.inc';

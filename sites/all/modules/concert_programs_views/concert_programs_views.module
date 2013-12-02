@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Concert Programs Views feature.
+ */
+
+include_once 'concert_programs_views.features.inc';

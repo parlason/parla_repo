@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Font-your-face-features feature.
+ */
+
+include_once 'font_your_face_features.features.inc';

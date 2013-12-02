@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Embedded photo slide show Features feature.
+ */
+
+include_once 'embedded_photo_slide_show_features.features.inc';

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Favicon Gallery Views feature.
+ */
+
+include_once 'favicon_gallery_views.features.inc';

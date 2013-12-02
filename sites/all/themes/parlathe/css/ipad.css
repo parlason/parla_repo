@@ -1,0 +1,46 @@
+
+Media queries for iPad */
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) { 
+	#page {		
+		/* min-width: 760px; *//* 910, 952px */
+	}
+	 /*
+   * The layout when there is only one sidebar, the right one.
+   */
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) { 
+	.region.region-sidebar-second.column.sidebar {
+		display: none /* Don't show the sidebar in portrait */
+	}
+	#page {
+		margin-left: 15px;
+		margin-right: 25px;
+		min-width: 760px; /* 910, 952px */
+	}
+	#main-menu-transparent {
+		max-width: 45.7em;
+	}
+	#name-and-slogan {
+		margin-left: -5.5em;
+		}
+		
+	.view.view-video-index { /* Prevent wrong scaling by iPad */
+		min-width: 675px;
+		}
+	.section-video .book-navigation {
+		min-width: 675px;
+		}	
+	article.node-page {
+		min-width: 675px;
+		}
+}
+

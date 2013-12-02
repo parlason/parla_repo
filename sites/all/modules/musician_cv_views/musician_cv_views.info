@@ -1,0 +1,11 @@
+name = Musician CV Views
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = musician_cv_views
+dependencies[] = views
+dependencies[] = views_slideshow
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = musician_cv
+features_exclude[dependencies][ctools] = ctools

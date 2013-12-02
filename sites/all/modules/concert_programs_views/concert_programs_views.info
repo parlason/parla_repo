@@ -1,0 +1,10 @@
+name = Concert Programs Views
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = concert_programs_views
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = concert_programs
+features_exclude[dependencies][ctools] = ctools
