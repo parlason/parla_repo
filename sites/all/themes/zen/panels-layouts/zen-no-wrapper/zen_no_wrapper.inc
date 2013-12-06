@@ -38,7 +38,7 @@ function zen_no_wrapper_settings_form(&$display, $layout, $settings) {
   foreach ($layout['regions'] as $region => $label) {
     $form['layout_settings'][$region . '_classes'] = array(
       '#type' => 'textfield',
-      '#title' => t('Classes for the ’Äú@region’Äù region', array('@region' => $label)),
+      '#title' => t('Classes for the â€œ@regionâ€ region', array('@region' => $label)),
       '#default_value' => isset($settings[$region . '_classes']) ? $settings[$region . '_classes'] : '',
       '#description' => t('CSS class (or classes) to apply to the @region region in the layout. This may be blank.', array('@region' => $label)),
     );
@@ -60,7 +60,7 @@ function zen_no_wrapper_settings_validate(&$form_state, $form, &$display, $layou
       // CSS identifiers can't start with a number or a dash and a number.
       $cleaned_class = preg_replace('/^\-?\d+/', '', $cleaned_class);
       if ($class != $cleaned_class) {
-        form_set_error($region . '_classes', t('The class "@class" is invalid. Here’Äôs an alternative class name that is valid: @alternate', array('@class' => $class, '@alternate' => $cleaned_class)));
+        form_set_error($region . '_classes', t('The class "@class" is invalid. Hereâ€™s an alternative class name that is valid: @alternate', array('@class' => $class, '@alternate' => $cleaned_class)));
       }
     }
   }
