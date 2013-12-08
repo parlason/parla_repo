@@ -243,6 +243,10 @@ font-family: josefin-sans;
 font-size: 1.1em;
 }
 
+p#via-artis-link a {
+	color: green
+	}
+
 .media-soundcloud-outer-wrapper {
 margin-bottom: 20px;
 }

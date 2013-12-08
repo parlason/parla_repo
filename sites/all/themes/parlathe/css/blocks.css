@@ -20,22 +20,27 @@
 .block.even { /* Zebra striping for each block in the region */
 }
 
+/*
 #block-block-9, #block-block-10 {
 position: relative;
 top: -30.7em;
 left: 4em;
 width: 11.3em;
 }
+*/
 
 #main-menu-transparent {
     position: relative;
     top: -1.65em;
-    width: auto/* 59.5em */;
+    width: auto;  /* 59.5em; */
     margin-right: -20px; /* fill out whole area, move if problems in iPad */
 	background-color: #000;
     height: 25px;
     left: -0.6em; /* -1.1em; */
-    opacity: 0.4;
+    /* opacity: 0.4; */
+    zoom: 1;
+	filter: alpha(opacity=40);
+	opacity: 0.4;
     z-index: -10;
     }
     

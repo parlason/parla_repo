@@ -70,6 +70,8 @@ audio:not([controls]) {
 /* =============================================================================
    Base
    ========================================================================== */
+font-weight: normal;
+font-style: normal;
 
 /* Instead of relying on the fonts that are available on a user's computer, you
    can use web fonts which, like images, are resources downloaded to the user's
