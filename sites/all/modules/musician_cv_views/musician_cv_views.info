@@ -1,7 +1,7 @@
 name = Musician CV Views
 core = 7.x
 package = Features
-version = 7.x-1.0
+version = 7.x-2.0
 project = musician_cv_views
 dependencies[] = views
 dependencies[] = views_slideshow

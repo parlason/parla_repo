@@ -37,7 +37,7 @@ margin-bottom: 20px;
 
 /* -------------------------------------------------- */
 
-/* SONGBOOK page */
+/* ART page */
 
 #collapse-text-text h2 {
 	position: relative;
@@ -75,7 +75,7 @@ border: 0px;
 .front .field-name-body {
 	position: relative;
 	left: 25px;
-	top: -4.45em;
+	top: -3em;
 	width: 39em;
 	}
 	
@@ -203,13 +203,13 @@ p#collaboration {
 
 body.section-participants #block-views-musician-cv-block, #block-views-musician-cv-block-1 {
 position: relative;
-top: -1.9em;
+top: -4.1em;
 }
 
 body.section-participants .views-slideshow-pager-fields {
 position: relative;
 left: 535px;
-top: 50px;
+top: 41px;
 width: 150px;
 z-index: 3;
 }
@@ -265,10 +265,13 @@ width: 33em;
 .views-field-field-cv-text .collapse-text-background {
 margin-left: -16px;
 position: absolute;
+top: 0;
 background-color: #808080;
 opacity: 0.2;
 width: 505px;
-height: 95%;
+height: 105%;
+border: 1px solid;
+border-radius: 7px;
 }
 
 .views-field-field-cv-text .collapse-text-text {
@@ -293,15 +296,36 @@ padding-top: 0em;
 }
 
 .section-participants .fieldset-wrapper .collapse-text-text {
+position: relative;
+top: 0em;
 width: 460px;
-padding-top: 1.5em;
+padding-top: 0;
 padding-left: 0.5em;
 padding-bottom: 0.5em;
 }
 
+.section-participants .fieldset-wrapper .collapse-text-text p {
+position: relative;
+top: 1.5em;
+}
+
+
 .section-participants .fieldset-wrapper {
 position: relative;
-top: -1.5em;
+top: 0;
+}
+
+.collapsible a.fieldset-title {
+font-family: "de-walpergens-pica";
+font-size: 1.3em;
+color: #808080;
+}
+
+body.section-participants fieldset.collapse-text-fieldset {
+position: relative;
+top: -0.5em;
+border: 0px;
+margin: 0;
 }
 
 
