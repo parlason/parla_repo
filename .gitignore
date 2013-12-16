@@ -2,8 +2,8 @@
 sites/*/settings*.php
 
 # Ignore paths that contain user-generated content.
-sites/*/files
-sites/*/files/.*
+# sites/*/files
+# sites/*/files/.*
 # Ignore user generated content like graphics
 # sites/*/files/*
 

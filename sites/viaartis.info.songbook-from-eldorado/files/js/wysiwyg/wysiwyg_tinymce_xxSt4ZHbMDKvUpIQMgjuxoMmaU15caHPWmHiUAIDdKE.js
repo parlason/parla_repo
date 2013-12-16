@@ -1,0 +1,1 @@
+window.tinyMCEPreInit = {"base":"\/songbook-from-eldorado\/sites\/all\/libraries\/tinymce\/jscripts\/tiny_mce","suffix":"","query":""};
