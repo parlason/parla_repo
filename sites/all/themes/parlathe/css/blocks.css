@@ -218,7 +218,7 @@ width: 11.3em;
 	border: 0px solid grey;
 	padding: 15px;
 	position: relative;
-	top: -479px;
+	top: -455px; /* 479px */
 	left: 48px;
 	width: 170px;
 	padding-bottom: 0px;
@@ -256,15 +256,20 @@ width: 11.3em;
     }
     
  #subscription-form input{
-	font-size: 70%;
+	font-size: 75%;
 	background-color: #909090;
 	color: white;
 	margin-bottom: 0.3em;
+	letter-spacing: 0.05em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-size: 1em;
+	-webkit-font-smoothing: subpixel-antialiased;
+	-moz-font-smoothing: subpixel-antialiased;
+	-o-font-smoothing: subpixel-antialiased;
     }
     
-select#country {
-	font-size: 70%;
-	}
+
 	
 label#label-select {
 	position: relative;
@@ -280,8 +285,8 @@ label#label-select {
 input#name {
 	position: relative;
 	top: 0em;
-	left: 0em;
-	width: 160px;
+	left: -0.5em;
+	width: 180px;
 	height: 1.8em;
 	}
 	
@@ -289,20 +294,26 @@ input#name {
 input#jhtjmt-jhtjmt, input#dtjdlk-dtjdlk  {
 	position: relative;
 	top: 0em;
-	left: 0em;
-	width: 160px;
+	left: -0.5em;
+	width: 180px;
 	height: 1.8em;
 	}	
 	
 select#country {
 	position: relative;
 	top: 0em;
-	left: 0em;
+	left: -0.5em;
 	background-color: #909090;
 	color: white;
 	height: 2.2em;
-	font-size: 0.7em;
-	max-width: 170px;
+	font-size: 0.75em;
+	max-width: 185px;
+	letter-spacing: 0.05em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 1em;
+ 
 	}
 	
 p#for-organizers-text {
@@ -331,10 +342,10 @@ div#check-box {
 	
 	
 input#submit-form {
-	font-size: 1.2em;
+	font-size: 1.6em;
 	padding: 5px 10px 5px 10px;
 	position: relative;
-	left: 1.6em;
+	left: 0.8em;
 	top: 0.3em;
 	background-color: green;
 	border: 2px solid;
@@ -347,5 +358,5 @@ input#submit-form {
 
 #block-system-powered-by {
 	font-size: 0.9em;
-	font-family: josefin-sans, san-serif;
+	font-family: Josefin Sans", sans-serif;
 }

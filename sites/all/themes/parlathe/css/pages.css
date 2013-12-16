@@ -21,6 +21,18 @@ body {
   font-weight: normal;
 }
 
+body {
+-webkit-font-smoothing: antialiased;
+-moz-font-smoothing: antialiased;
+-o-font-smoothing: antialiased;
+background-color: transparent; 
+/*
+-webkit-font-smoothing: subpixel-antialiased;
+-moz-font-smoothing: subpixel-antialiased;
+-o-font-smoothing: subpixel-antialiased;
+*/
+}
+
 #page {
 }
 
@@ -90,7 +102,7 @@ line-height: 1.5em;
 }
 
 #site-slogan { /* The slogan (or tagline) of a website */
-  font-family: josefin-sans, sans-serif;
+  font-family: Josefin Sans, sans-serif;
   font-weight: lighter;
   position: relative;
   top: -.4em;
@@ -135,7 +147,7 @@ line-height: 1.5em;
 }
 
 h1, h3 {
-	font-family: 'Italiana', san-serif;
+	font-family: 'Italiana', sans-serif;
 	font-style: normal;
 	font-weight: normal;
 	}
@@ -151,7 +163,7 @@ top: -0.85em;
 
 
 h2 {
-font-family: josefin-sans, sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 margin-bottom: 0em;
 font-weight: 500;
 color: #808080;
@@ -179,17 +191,27 @@ width: 2.75em;
 p {
 margin-top: 0em;
 font-family: 'EB Garamond', serif;
+font-style: normal;
+font-weight: 400;
 }
 
 p.text-header {
-font-family: "de-walpergens-pica";
+font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif;
+font-style: normal;
+font-weight: 400;
 font-size: 1.3em;
 }
 
 p#second-sidebar-menu {
-font-family: "de-walpergens-pica";
-font-size: 1.1em;
-line-height: 2em;
+position: relative;
+top: -0.3em;
+font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif;
+font-family: Verdana, Tahoma, "DejaVu Sans", sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 1.2em;
+line-height: 2em;  
 }
 
 p#second-sidebar-menu a {
@@ -204,8 +226,9 @@ color: grey;
 }
 
 #subscription-text p#subscription-header {
-font-family: "de-walpergens-pica", serif;
+font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif;
 font-style: normal;
+font-weight: 400;
 font-size: 1.5em;
 }
 
@@ -216,7 +239,9 @@ color: grey;
 }
 
 .collapsible a.fieldset-title {
-font-family: "de-walpergens-pica";
+font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif;
+font-style: normal;
+font-weight: 400;
 font-size: 1.3em;
 color: #808080;
 }
@@ -239,7 +264,7 @@ padding-top: 2em;
 p#via-artis-link {
 position: relative;
 top: -3.1em;
-font-family: josefin-sans;
+font-family: 'Josefin Sans';
 font-size: 1.1em;
 }
 

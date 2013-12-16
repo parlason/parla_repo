@@ -38,6 +38,27 @@
     <script src="<?php print $base_path . $path_to_zen; ?>/js/respond.js"></script>
     <![endif]-->
   <?php endif; ?>
+  
+<?php /* Typekit fonts */ ?>
+  <script type="text/javascript" src="//use.typekit.net/ebd8nbr.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+ 
+<?php /* Google fonts */ ?>
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Josefin+Sans:', 'EB+Garamond::latin-ext', 'Italiana:' ] }
+  };
+  (function() {
+    var wf = document.createElement('script');
+    wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+      '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+    wf.type = 'text/javascript';
+    wf.async = 'true';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(wf, s);
+  })(); </script>
+  
 </head>
 <body class="<?php print $classes; ?>" <?php print $attributes;?>>
   <?php if ($skip_link_text && $skip_link_anchor): ?>

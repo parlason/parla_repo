@@ -84,9 +84,13 @@ text-decoration: none;
 color: #FFF;
 font-family: "estilo-pro", sans serif;
 font-size: 1.15em;
+font-family: "estilo-pro-n1","estilo-pro",sans-serif;
 font-style: normal;
-font-weight: lighter;
-
+font-weight: 100;
+letter-spacing: 1px;
+-webkit-font-smoothing: subpixel-antialiased;
+-moz-font-smoothing: subpixel-antialiased;
+-o-font-smoothing: subpixel-antialiased;
 }
 
 .region-navigation {

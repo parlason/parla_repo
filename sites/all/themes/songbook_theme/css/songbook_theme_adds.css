@@ -22,16 +22,6 @@ line-height: 1.5em;
 
 /* SECOND SIDE MENU */
 
-#subscription-block {
-border: 0px solid grey;
-padding: 15px;
-position: relative;
-top: -430px;
-left: 48px;
-width: 170px;
-padding-bottom: 0px;
-margin-bottom: 20px;
-}
 
 
 /* -------------------------------------------------- */
@@ -248,7 +238,7 @@ width: 530px;
 	}
 
 .cv-title {
-	font-family: josefin-sans, sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 	font-size: 1.4em;
 	color: white;
 	font-weight: 600;

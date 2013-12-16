@@ -105,11 +105,10 @@ margin-bottom: 7em;
 	position: relative;
 	top: 287px; /* 12.8em; */
 	left: 0.5em;
-	font-family: "de-walpergens-pica", serif;
-	font-family: josefin-sans, sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 1.4em;
 	letter-spacing: 0.1em;
-	font-weight: 900;
+	font-weight: bolder;
 	color: white;
 	}
 	
@@ -141,6 +140,7 @@ margin-bottom: 7em;
 	font-size: 0.9em;
 	color: white;
 	width: 570px; /* 38.5em; */
+	line-height: 1.5em;
 	}
 
 .theme-presentation-text p {	
@@ -288,7 +288,7 @@ z-index: 3;
 }
 
 .cd-title {
-font-family: josefin-sans, sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 font-size: 1.4em;
 color: white;
 font-weight: 600;
@@ -494,14 +494,14 @@ top: -0.7em;
 }
 
 p#subtitle {
-font-family: josefin-sans;
+font-family: "Josefin Sans", sans-serif;
 font-size: 1.1em;
 position: relative;
 top: -3.6em;
 }
 
 .section-post p#teaser-text {
-font-family: "de-walpergens-pica";
+font-family: "de-walpergens-pica", serif;
 font-size: 1.3em;
 width: 31em;
 position: relative;
@@ -551,6 +551,8 @@ z-index: 10;
 
 .section-post h2#section-title {
 color: #696969;
+padding-left: 0;
+font-size: 1.5em;
 }
 
 

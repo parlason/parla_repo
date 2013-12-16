@@ -93,7 +93,7 @@ border: 0px;
 .collapse-text-text h2 {
 	position: relative;
 	left: -0.3em;
-	font-size: 1.9em;
+	font-size: 1.7em;
 	}
 	
 .collapse-text-text #concert-program h2 {
@@ -234,7 +234,7 @@ width: 530px;
 .cv-title-transparent {
 background-color: green;
 height: 34px;
-left: -0px;
+left: 0px;
 opacity: 0.4;
 position: relative;
 top: -40px;
@@ -243,13 +243,13 @@ z-index: 3;
 }
 
 .cv-title {
-font-family: josefin-sans, sans-serif;
+font-family: 'Josefin Sans', sans-serif;
 font-size: 1.4em;
 color: white;
 font-weight: 600;
 position: relative;
 top: -35px;
-left: 25px;
+left: 10px;
 z-index: 4;
 }
 

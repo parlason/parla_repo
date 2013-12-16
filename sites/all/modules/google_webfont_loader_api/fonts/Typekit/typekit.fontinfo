@@ -1,4 +1,4 @@
 name = 'Typekit fonts'
 typekit = 'ebd8nbr'
-render_css[] = local/path/to/stylesheet1.css
-render_css[] = local/path/to/stylesheet2.css
+render_css[] = ~/Sites/drupal/sites/all/themes/parlathe/css/navigation.css
+render_css[] = ~/Sites/drupal/sites/all/themes/parlathe/css/pages.css

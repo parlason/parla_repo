@@ -1,0 +1,4 @@
+name = 'Garamond - Google Font'
+google_families[] = 'EB Garamond regular'
+render_css[] = ~/Sites/drupal/sites/all/themes/parlathe/css/pages.css
+render_css[] = render_stylesheet2.css
