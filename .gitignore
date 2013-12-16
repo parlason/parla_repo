@@ -5,16 +5,16 @@ sites/*/settings*.php
 sites/*/files
 sites/*/files/.*
 # Ignore user generated content like graphics
-sites/*/files/*
+# sites/*/files/*
 
 sites/*/private
 
 # Ignore files specific to web hosting
 sites/sites.php
-vak
-art
-songbook
-copenhagen
-.gitignore
+# vak
+# art
+# songbook
+# copenhagen
+.gitignoreX
 .htaccess
 
