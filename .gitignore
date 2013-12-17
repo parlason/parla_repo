@@ -1,0 +1,20 @@
+# Ignore configuration files that may contain sensitive information.
+# sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+# sites/*/files
+# sites/*/files/.*
+# Ignore user generated content like graphics
+# sites/*/files/*
+
+sites/*/private
+
+# Ignore files specific to web hosting
+# sites/sites.php
+# vak
+# art
+# songbook
+# copenhagen
+# .gitignore
+.htaccess
+
