@@ -211,19 +211,19 @@
  * @endcode
  */
 
-if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'viaartis.info.linux54.unoeuro-server.com') {
+if ($_SERVER['SERVER_NAME'] == 'd7.local') {
     $databases = array (
       'default' => 
       array (
         'default' => 
         array (
-          'database' => $_SERVER['viaartis_info_db'],
-          'username' => $_SERVER['viaartis_info'],
-          'password' => $_SERVER['parlaATunoEuro0'],
-          'host' => $_SERVER['mysql26.unoeuro.com'],
-          'port' => $_SERVER[''],
-          'driver' => 'mysql',
-          'prefix' => '',
+      		'database' => 'vak_local',
+      		'username' => 'root',
+      		'password' => 'mysql@parLa0',
+      		'host' => 'localhost',
+      		'port' => '',
+      		'driver' => 'mysql',
+      		'prefix' => '',
         ),
       ),
     );
@@ -235,13 +235,13 @@ else {
   	array (
     	'default' => 
    	 	array (
-      		'database' => 'vak_local',
-      		'username' => 'root',
-      		'password' => 'mysql@parLa0',
-      		'host' => 'localhost',
-      		'port' => '',
-      		'driver' => 'mysql',
-      		'prefix' => '',
+          'database' => $_SERVER['viaartis_info_db'],
+          'username' => $_SERVER['viaartis_info'],
+          'password' => $_SERVER['parlaATunoEuro0'],
+          'host' => $_SERVER['mysql26.unoeuro.com'],
+          'port' => $_SERVER[''],
+          'driver' => 'mysql',
+          'prefix' => '',
     		),
   		),
 	);
