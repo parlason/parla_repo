@@ -54,16 +54,16 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
  
-if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'viaartis.info.linux54.unoeuro-server.com') {
- $sites['viaartis.info.linux54.unoeuro-server.com.vak'] = 'viaartis.info';
- $sites['viaartis.info.linux54.unoeuro-server.com.songbook'] = 'viaartis.info.songbook-from-eldorado';
- $sites['viaartis.info.linux54.unoeuro-server.com.art'] = 'viaartis.info.art-of-touch';
+if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'd7.local') {
+ $sites['d7.local.vak'] = 'viaartis.info';
+ $sites['d7.local.songbook'] = 'viaartis.info.songbook-from-eldorado';
+ $sites['d7.local.art'] = 'viaartis.info.art-of-touch'; 
 }
  
 else {
- $sites['d7.local.vak'] = 'viaartis.info';
- $sites['d7.local.songbook'] = 'viaartis.info.songbook-from-eldorado';
- $sites['d7.local.art'] = 'viaartis.info.art-of-touch';
+ $sites['viaartis.info.linux54.unoeuro-server.com.vak'] = 'viaartis.info';
+ $sites['viaartis.info.linux54.unoeuro-server.com.songbook'] = 'viaartis.info.songbook-from-eldorado';
+ $sites['viaartis.info.linux54.unoeuro-server.com.art'] = 'viaartis.info.art-of-touch';
 } 
  
  
