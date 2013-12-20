@@ -145,6 +145,19 @@ width: 11.3em;
 	width: 11em;
 }
 
+#block-block-9, #block-block-10 {
+	position: relative;
+	top: -29.5em;
+	left: 3.5em;
+	width: 12.5em;
+	}
+p#promote-video-text {
+	font-family: 'EB Garamond', serif;
+	font-style: normal;
+	font-weight: normal;
+	color: grey;
+	}
+	
 #block-node-recent { /* "Recent content" block */
 }
 
