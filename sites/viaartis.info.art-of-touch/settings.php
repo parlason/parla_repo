@@ -210,21 +210,43 @@
  *   );
  * @endcode
  */
-$databases = array (
-  'default' => 
-  array (
-    'default' => 
-    array (
-      'database' => 'art_local',
-      'username' => 'root',
-      'password' => 'mysql@parLa0',
-      'host' => 'localhost',
-      'port' => '',
-      'driver' => 'mysql',
-      'prefix' => '',
-    ),
-  ),
-);
+ 
+if ($_SERVER['SERVER_NAME'] == 'd7.local') {
+    $databases = array (
+      'default' => 
+      array (
+        'default' => 
+        array (
+      		'database' => 'art_local',
+      		'username' => 'root',
+      		'password' => 'mysql@parLa0',
+      		'host' => 'localhost',
+      		'port' => '',
+      		'driver' => 'mysql',
+      		'prefix' => '',
+        ),
+      ),
+    );
+}
+ 
+else {
+    $databases = array (
+  	'default' => 
+  	array (
+    	'default' => 
+   	 	array (
+        	'database' => 'parla_artdevel',
+      		'username' => 'parla_27',
+      		'password' => 'dbadmin@parLa0',
+      		'host' => 'db147a.pair.com',
+      		'port' => '',
+      		'driver' => 'mysql',
+      		'prefix' => '',
+    		),
+  		),
+	);
+}
+
 
 /**
  * Access control for update.php script.
