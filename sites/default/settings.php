@@ -235,17 +235,18 @@ else {
   	array (
     	'default' => 
    	 	array (
-          'database' => $_SERVER['viaartis_info_db'],
-          'username' => $_SERVER['viaartis_info'],
-          'password' => $_SERVER['parlaATunoEuro0'],
-          'host' => $_SERVER['mysql26.unoeuro.com'],
-          'port' => $_SERVER[''],
-          'driver' => 'mysql',
-          'prefix' => '',
+        	'database' => 'parla_vakdevel',
+      		'username' => 'parla_29',
+      		'password' => 'dbadmin@parLa0',
+      		'host' => 'db148d.pair.com',
+      		'port' => '',
+      		'driver' => 'mysql',
+      		'prefix' => '',
     		),
   		),
 	);
 }
+
 /**
  * Access control for update.php script.
  *
