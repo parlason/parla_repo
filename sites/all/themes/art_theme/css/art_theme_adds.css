@@ -37,9 +37,9 @@ margin-bottom: 20px;
 
 #block-block-9, #block-block-10 {
 position: relative;
-top: 0em;
-left: 0em;
-width: 12.5em;
+top: 0;
+left: 0;
+width: auto;
 }
 
 /* -------------------------------------------------- */
