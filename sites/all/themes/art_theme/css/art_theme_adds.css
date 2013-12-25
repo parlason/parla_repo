@@ -44,6 +44,19 @@ width: 12.5em;
 
 /* -------------------------------------------------- */
 
+/* MENU */
+
+#navigation ul.links li,
+#navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
+  float: left; /* LTR */
+  padding: 0 17px 0 0; /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+  z-index: 10;
+}
+
+/* -------------------------------------------------- */
+
 /* ART page */
 
 #collapse-text-text h2 {
