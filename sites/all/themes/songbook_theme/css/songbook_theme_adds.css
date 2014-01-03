@@ -8,15 +8,21 @@
   position: relative;
   top: 1.4em;
   left: -7.75em;
+  width: auto;
 }
-
 
 #site-name { /* The name of the website */
   margin: 0;
   font-size: 2.9em;
   letter-spacing: 0.1em;
-line-height: 1.5em;
+  line-height: 1.5em;
 } 
+
+.i18n-es #site-name  {
+	  font-size: 2.8em;
+	  letter-spacing: 0.07em;
+}
+
 
 /* ____________________________________________________________________ */
 

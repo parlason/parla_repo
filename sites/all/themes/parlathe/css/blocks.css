@@ -145,17 +145,17 @@ width: 11.3em;
 	width: 11em;
 }
 
-#block-block-9, #block-block-10 {
-	position: relative;
-	top: -29.5em;
-	left: 3.5em;
-	width: 12.5em;
-	}
+
+
 p#promote-video-text {
 	font-family: 'EB Garamond', serif;
 	font-style: normal;
 	font-weight: normal;
 	color: grey;
+	position: relative;
+	top: -29.5em;
+	left: 3.5em;
+	width: 12.5em;
 	}
 	
 #block-node-recent { /* "Recent content" block */
@@ -227,6 +227,19 @@ p#promote-video-text {
 
 /* Subscription form block */
 
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    white9;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    white;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    white;
+}
+
 #subscription-block {
 	border: 0px solid grey;
 	padding: 15px;
@@ -295,7 +308,7 @@ label#label-select {
 	width: 11.5em;
 	}
 
-input#name {
+input#name, input#fieldName {
 	position: relative;
 	top: 0em;
 	left: -0.5em;
@@ -304,7 +317,7 @@ input#name {
 	}
 	
 	
-input#jhtjmt-jhtjmt, input#dtjdlk-dtjdlk  {
+input#jhtjmt-jhtjmt, input#dtjdlk-dtjdlk, input#fieldEmail  {
 	position: relative;
 	top: 0em;
 	left: -0.5em;
@@ -312,7 +325,7 @@ input#jhtjmt-jhtjmt, input#dtjdlk-dtjdlk  {
 	height: 1.8em;
 	}	
 	
-select#country {
+select#country, select#fieldjjjytrr {
 	position: relative;
 	top: 0em;
 	left: -0.5em;
@@ -332,7 +345,7 @@ select#country {
 p#for-organizers-text {
 	position: relative;
 	top: 1em;
-	width: 170px;
+	width: 200px;
 	font-family: "de-walpergens-pica", serif;
 	font-size: 1.5em;
 	}

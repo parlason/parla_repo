@@ -183,7 +183,7 @@ margin-bottom: 7em;
 	left: 2em;
 	}
 	
-.section-concert-theme #block-block-11, .section-concert-theme #block-block-12 {
+.section-concert-theme #block-block-11, .section-concert-theme #block-block-12, .section-concert-theme #block-block-14 {
 	position: relative;
 	top: 14.5em;
 	left: 2em;
@@ -302,6 +302,11 @@ z-index: 4;
 .cd-link {
 position: relative;
 top: 2em;
+color: green;
+}
+
+.cd-link a:hover {
+color: black;
 }
 
 .views-field-field-cd-link a {
@@ -563,5 +568,44 @@ font-size: 1.5em;
 #fb-page {
 	position: relative;
 	top: -1.5em;
+	left: 2em;
+	}
+
+/* ____________________________________________________________________ */
+
+/* Links page */
+#link-link {
+	position: relative;
+	top: -2em;
+	color: #696969;
+	}
+	
+#link-link a {
+	color: #696969;
+	}
+	
+.view-links-of-interest {
+	position: relative;
+	top: -4em;
+	left: 2.5em;
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.0em;
+	line-height: 2em;
+	}
+
+.view-links-of-interest a{
+	font-size: 120%;
+	}
+	
+.view-links-of-interest a:hover {
+	color: black;
+	text-decoration: underline:
+	}
+	
+.section-links-of-interest .field-item, .section-links-all .field-item  {
+	position: relative;
+	top: -2.1em;
 	left: 2em;
 	}
