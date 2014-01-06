@@ -28,9 +28,35 @@ and (orientation : portrait) {
 	}
 	#main-menu-transparent {
 		max-width: 45.7em;
+		/* background-color: white; */
 	}
+	
+	#navigation a {
+		color: #FFF;
+		font-size: 1em;
+		font-family: "estilo-pro-n1","estilo-pro",sans-serif;
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: 1px;
+		-webkit-font-smoothing: subpixel-antialiased;
+		-moz-font-smoothing: subpixel-antialiased;
+		-o-font-smoothing: subpixel-antialiased;
+}
+
+	#navigation ul.links li, #navigation ul.menu li {
+		float: left;
+		padding: 0 10px 0 0;
+		list-style-type: none;
+		list-style-image: none;
+		z-index: 10;
+		}
+
 	#name-and-slogan {
+		position; relative;
+		top: 3em;
+		left: -1em;
 		margin-left: -5.5em;
+		font-size: 75%;
 		}
 		
 	.view.view-video-index { /* Prevent wrong scaling by iPad */
@@ -42,5 +68,5 @@ and (orientation : portrait) {
 	article.node-page {
 		min-width: 675px;
 		}
-}
 
+}
