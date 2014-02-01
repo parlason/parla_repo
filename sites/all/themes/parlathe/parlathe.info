@@ -64,6 +64,7 @@ stylesheets[all][] = css/fields.css
 stylesheets[all][] = css/basic-pages.css
 stylesheets[all][] = css/print.css
 stylesheets[all][] = css/ipad.css
+stylesheets[all][] = css/bbplayer.css
 
 ; Set the conditional stylesheets that are processed by IE.
 ; stylesheets-conditional[lt IE 7][all][] = css/conditional/ie6-and-below.css
@@ -86,8 +87,9 @@ stylesheets[all][] = css/ipad.css
 
 ; Optionally add some JavaScripts to your theme.
 
+;scripts[] = js/bbplayer.js
 ;scripts[] = js/script.js
-scripts[] = js/corrections.js
+;scripts[] = js/corrections.js
 ;scripts[] = js/ipad_fix.js
 
 

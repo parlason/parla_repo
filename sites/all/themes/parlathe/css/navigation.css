@@ -73,13 +73,14 @@ li a.active {
 #navigation ul.links li,
 #navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
   position: relative;
-  top: 0;  
+  top: -2.5px;  
   float: left; /* LTR */
   padding: 0 20px 0 0; /* LTR */
   list-style-type: none;
   list-style-image: none;
   z-index: 10;
 }
+
 
 #navigation a {
 text-decoration: none;
@@ -88,11 +89,19 @@ font-family: "estilo-pro", sans serif;
 font-size: 1.15em;
 font-family: "estilo-pro-n1","estilo-pro",sans-serif;
 font-style: normal;
-font-weight: 100;
+font-weight: lighter; /* 100 */
 letter-spacing: 1px;
 -webkit-font-smoothing: subpixel-antialiased;
 -moz-font-smoothing: subpixel-antialiased;
 -o-font-smoothing: subpixel-antialiased;
+}
+
+#navigation a {
+font-family: 'Josefin Sans', sans-serif;
+font-variant: small-caps;
+font-size: 1em;
+text-align: left;
+letter-spacing: 1.1px;
 }
 
 .region-navigation {

@@ -42,7 +42,6 @@
 <?php /* Typekit fonts */ ?>
   <script type="text/javascript" src="//use.typekit.net/ebd8nbr.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
  
 <?php /* Google fonts */ ?>
 <script type="text/javascript">

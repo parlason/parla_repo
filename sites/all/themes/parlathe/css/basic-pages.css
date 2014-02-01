@@ -609,3 +609,175 @@ font-size: 1.5em;
 	top: -2.1em;
 	left: 2em;
 	}
+	
+
+/* ____________________________________________________________________ */
+
+/* Event page */
+
+.field-name-field-event-teaser {
+	position: relative;
+	left: 2em;
+	}	
+
+.field-name-field-event-teaser p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 1.5em;	
+	}
+	
+.node-type-event-element .addtoany_list {
+	position: absolute;
+	top: -.5em;
+	left: -1.3em;
+	}
+	
+.field-name-field-event-url {
+	position: relative;
+	top: -1.8em;
+	left: 2em;
+	}
+	
+.field-name-field-event-url a {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.4em;
+	color: #585858;
+	}
+	
+.node-type-event-element .date-display-single {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.2em;
+	position: relative;
+	top: -1em;
+	left: 1.8em;
+	}
+.field-name-field-event-address {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.2em;
+	position: relative;
+	top: -1em;
+	left: 1.8em;
+	}
+.node-type-event-element p.simple-gmap-link {
+	position: relative;
+	top: -1.2em;
+	left: 2.4em;
+	font-size: 0.9em;
+	font-style: italic;
+	}
+	
+.field-name-field-event-description {
+	position: relative;
+	top: -1.5em;
+	left: 2.1em;
+	width: 39em;
+	}
+	
+.node-type-event-element .node-event-element {
+	position: relative;
+	top: -2.1em;
+	}
+	
+/* ____________________________________________________________________ */
+
+/* Calendar page */
+
+.section-calendar .event-row {
+	position: relative;
+	font-family: "Verdana","sans serif";
+	font-size: 0.75em;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin-bottom: 5px;
+	}
+.section-calendar .views-row-odd {
+	color: white;
+	}
+.section-calendar .views-row-odd a {
+	color: white;
+	}
+.section-calendar .views-row-even a {
+	color: black;
+	}
+	
+.section-calendar .event-date {
+	position: absolute;
+	top: -7.3em;
+	left: 10em;
+	font-weight: bolder;
+	}
+	
+.section-calendar .event-program {
+	position: absolute;
+	top: -7.3em;
+	left: 35.5em;
+	font-weight: bolder;
+	}
+
+.section-calendar .event-teaser p {
+	font-family: 'Verdana', sans-serif;
+	font-size: 0.9em;
+	}
+	
+.section-calendar .event-teaser {
+	position: absolute;
+	top: -5.8em;
+	left: 10em;
+	}
+	
+.section-calendar .event-address {
+	position: absolute;
+	top: -4.8em;
+	left: 11.12em;	
+	font-size: 0.9em;
+	}
+
+.section-calendar .event-location p {
+	font-family: 'Verdana', sans-serif;
+	font-size: 0.8em;
+	}
+		
+.section-calendar .event-location {
+	position: absolute;
+	top: -2.8em;
+	left: 10em;	
+	}
+
+.section-calendar .event-artist {
+	position: absolute;
+	top: -3.4em;
+	left: 485px;
+	font-size: 0.8em;
+	color: white;	
+	}
+	
+.section-calendar .views-row-odd .event-background-transparency {
+position: absolute;
+top: -7.45em;
+left: 100px;
+width: 520px;
+height: 81px;
+background-color: green;
+opacity: 0.6;
+-moz-opacity: 0.6:;
+}
+
+.section-calendar .views-row-even .event-background-transparency {
+position: absolute;
+top: -7.45em;
+left: 100px;
+width: 520px;
+height: 81px;
+background-color: #F0B900;;
+opacity: 0.6;
+-moz-opacity: 0.6:;
+}
+
+.section-calendar ul {
+list-style-type: none;
+}
+
+.section-calendar .field-items {
+	position: relative;
+	top: -2.1em;
