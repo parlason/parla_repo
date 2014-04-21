@@ -31,26 +31,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -7,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
-        'weight' => 0,
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
+        'weight' => -9,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -73,26 +67,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -7,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
-        'weight' => 0,
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
+        'weight' => -8,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -115,26 +103,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -157,26 +139,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => 0,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -197,66 +173,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
+      'seven' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'seven',
+        'weight' => 0,
+      ),
+      'war_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -6,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
-        'weight' => 0,
+        'theme' => 'war_theme',
+        'weight' => -10,
       ),
     ),
-    'title' => '<none>',
-    'visibility' => 0,
-  );
-
-  $export['block-transparent_background_main_menu'] = array(
-    'cache' => -1,
-    'custom' => 0,
-    'i18n_block_language' => array(),
-    'i18n_mode' => 0,
-    'machine_name' => 'transparent_background_main_menu',
-    'module' => 'block',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'bartik' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'bartik',
-        'weight' => 0,
-      ),
-      'parlath' => array(
-        'region' => 'navigation',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => 0,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -279,26 +209,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -23,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -312,7 +236,7 @@ function user_created_blocks_default_fe_block_settings() {
     'machine_name' => 'via_artis_links_english',
     'module' => 'block',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'post/*',
     'roles' => array(),
     'themes' => array(
       'bartik' => array(
@@ -321,26 +245,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'content',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -23,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'content',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 0,
   );
 
@@ -363,26 +281,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -5,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 1,
   );
 
@@ -405,26 +317,20 @@ function user_created_blocks_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
-      'parlath' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'parlath',
-        'weight' => -5,
-      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
       ),
-      'zen' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'zen',
+      'war_theme' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'war_theme',
         'weight' => 0,
       ),
     ),
-    'title' => '<none>',
+    'title' => '',
     'visibility' => 1,
   );
 

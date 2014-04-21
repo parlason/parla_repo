@@ -87,6 +87,7 @@ stylesheets[all][] = css/bbplayer.css
 
 ; Optionally add some JavaScripts to your theme.
 
+scripts[] = js/menu.js
 ;scripts[] = js/bbplayer.js
 ;scripts[] = js/script.js
 ;scripts[] = js/corrections.js
