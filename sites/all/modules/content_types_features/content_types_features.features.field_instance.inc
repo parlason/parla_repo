@@ -62,9 +62,11 @@ function content_types_features_field_default_field_instances() {
     'display' => array(
       'default' => array(
         'label' => 'above',
-        'module' => NULL,
-        'settings' => array(),
-        'type' => 'media_large',
+        'module' => 'media',
+        'settings' => array(
+          'file_view_mode' => 'default',
+        ),
+        'type' => 'media',
         'weight' => 12,
       ),
       'teaser' => array(
@@ -105,6 +107,52 @@ function content_types_features_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-article-field_classification'
+  $field_instances['node-article-field_classification'] = array(
+    'bundle' => 'article',
+    'default_value' => array(
+      0 => array(
+        'tid' => 'autocreate',
+        'vid' => 1,
+        'name' => 'Article',
+        'vocabulary_machine_name' => 'tags',
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 13,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_classification',
+    'label' => 'Classification',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 41,
+    ),
+  );
+
   // Exported field_instance: 'node-article-field_image'
   $field_instances['node-article-field_image'] = array(
     'bundle' => 'article',
@@ -116,7 +164,7 @@ function content_types_features_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => '',
-          'image_style' => 'large',
+          'image_style' => 'video_size_large',
         ),
         'type' => 'image',
         'weight' => -1,
@@ -126,7 +174,7 @@ function content_types_features_field_default_field_instances() {
         'module' => 'image',
         'settings' => array(
           'image_link' => 'content',
-          'image_style' => 'medium',
+          'image_style' => 'video_size_small',
         ),
         'type' => 'image',
         'weight' => -1,
@@ -1942,6 +1990,64 @@ function content_types_features_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-post-field_classification'
+  $field_instances['node-post-field_classification'] = array(
+    'bundle' => 'post',
+    'default_value' => array(
+      0 => array(
+        'tid' => 18,
+        'vid' => 1,
+        'name' => 'Post',
+        'description' => NULL,
+        'format' => NULL,
+        'weight' => 0,
+        'language' => 'da',
+        'i18n_tsid' => 0,
+        'vocabulary_machine_name' => 'tags',
+        'metatags' => array(),
+      ),
+    ),
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
+      'full' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 5,
+      ),
+      'teaser' => array(
+        'label' => 'hidden',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_classification',
+    'label' => 'Classification',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'taxonomy',
+      'settings' => array(
+        'autocomplete_path' => 'taxonomy/autocomplete',
+        'size' => 60,
+      ),
+      'type' => 'taxonomy_autocomplete',
+      'weight' => 8,
+    ),
+  );
+
   // Exported field_instance: 'node-post-field_subtitle'
   $field_instances['node-post-field_subtitle'] = array(
     'bundle' => 'post',
@@ -2633,7 +2739,7 @@ function content_types_features_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'media',
         'settings' => array(
-          'file_view_mode' => 'media_large',
+          'file_view_mode' => 'media_original',
         ),
         'type' => 'media',
         'weight' => 1,
@@ -2642,7 +2748,7 @@ function content_types_features_field_default_field_instances() {
         'label' => 'hidden',
         'module' => 'media',
         'settings' => array(
-          'file_view_mode' => 'media_large',
+          'file_view_mode' => 'media_original',
         ),
         'type' => 'media',
         'weight' => 0,
@@ -2833,6 +2939,7 @@ function content_types_features_field_default_field_instances() {
   t('CV photo second');
   t('CV photo thumbnail');
   t('CV text');
+  t('Classification');
   t('Concert date');
   t('Concert venue');
   t('Downloadable program');

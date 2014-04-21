@@ -428,6 +428,10 @@ font-size: 90%;
 margin-bottom: 1.2em;
 }
 
+.node-three-photo-article.view-mode-full a {
+color: green;
+}
+
 
 /* ____________________________________________________________________ */
 
