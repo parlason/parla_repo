@@ -15,14 +15,13 @@ function user_created_blocks_default_fe_block_boxes() {
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'other_links_danish';
   $fe_block_boxes->body = '<div id="block-menu-title"><h2 class="block-title">Via Artis links</h2></div><div id="block-menu-elements"><p id="second-sidebar-menu">
-<a title="Via Artis Konsort hovedside" href="http://<?php echo $_SERVER[\'SERVER_NAME\']  . "/da/concert-theme" ?>">Flere temakoncerter</a><br />
-<a href="http://<?php echo $_SERVER[\'SERVER_NAME\']  . "/da/calendar" ?>" id="Kommende og afholdte Via Artis koncerter" title="Kommende og afholdte Via Artis koncerter">Koncertkalender</a><br />
-<a href="http://shop.parla.org" id="Via Artis Konsort albums og downloads" title="Via Artis Konsort albums and downloads" target="_blank">CD\'er og downloads</a><br />
-<a href="http://www.youtube.com/viaartiskonsort" id="Via Artis Konsort videokanal" title="Via Artis Konsort video channel" target="_blank">Videokanal</a><br />
-<a href="http://www.facebook.com/viaartiskonsort" id="Via Artis Konsort Facebookside" title="Via Artis Konsort Facebook page" target="_blank">Facebookside</a><br />
-<a href="https://www.facebook.com/pages/Early-World-Music/135118829865142?ref=br_tf" id="Early World Music Facebookside" title="Early World Music Facebook side" target="_blank">Early World Music</a><br />
-<a title="Via Artis links to sites of interest" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/da/links-of-interest"; ?>">Interesante links</a><br />
-</p></div>';
+<a title="Via Artis Konsort tema-koncerter" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/da/concert-theme"; ?>">Flere temakoncerter</a><br />
+<a title="Via Artis Konsort koncertkalendar" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/da/calendar"; ?>" >Koncertkalender</a><br />
+<a title="PARLA son online salg" href="http://shop.parla.org" target="_blank">CD\'er og downloads</a><br />
+<a title="Via Artis videokanal" href="http://www.youtube.com/viaartiskonsort" target="_blank">Videokanal</a><br />
+<a title="Via Artis Facebookside" href="http://www.facebook.com/viaartiskonsort" target="_blank">Facebookside</a><br />
+<a title="Early World Music" href="https://www.facebook.com/pages/Early-World-Music/135118829865142?ref=ts&amp;fref=ts" target="_blank">Early World Music</a><br />
+<a title="Via Artis Konsort interesante links" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/da/links-of-interest"; ?>">Interesante links</a><br />';
 
   $export['other_links_danish'] = $fe_block_boxes;
 
@@ -31,29 +30,28 @@ function user_created_blocks_default_fe_block_boxes() {
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'other_links_english';
   $fe_block_boxes->body = '<div id="block-menu-title"><h2 class="block-title">Via Artis links</h2></div><div id="block-menu-elements"><p id="second-sidebar-menu">
-<a title="Via Artis Konsort nain page" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/concert-theme" ?>">More concert themes</a><br />
-<a href="http://<?php echo $_SERVER[\'SERVER_NAME\']  . "/calendar" ?>" id="Upcoming and previous Via Artis concerts" title="Upcoming and previous Via Artis concerts">Concert calendar</a><br />
-<a href="http://shop.parla.org" id="Via Artis Konsort albums and downloads" title="Via Artis Konsort albums and downloads" target="_blank">CD\'s and downloads</a><br />
-<a href="http://www.youtube.com/viaartiskonsort" id="Via Artis Konsort video channel" title="Via Artis Konsort video channel" target="_blank">Video channel</a><br />
-<a href="http://www.facebook.com/viaartiskonsort" id="Via Artis Konsort Facebook page" title="Via Artis Konsort Facebook page" target="_blank">Facebook page</a><br />
-<a href="https://www.facebook.com/pages/Early-World-Music/135118829865142?ref=br_tf" id="Early World Music Facebook page" title="Early World Music Facebook page" target="_blank">Early World Music</a><br />
-<a title="Via Artis links to sites of interest" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/links-of-interest"; ?>">Interesting links</a><br />
-</p></div>';
+<a title="Read about the different Via Artis concert programs" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/concert-theme"; ?>">More concert themes</a><br />
+<a title="Via Artis Konsort concert calendar" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/calendar"; ?>">Concert calendar</a><br />
+<a title="PARLA son online sale" href="http://shop.parla.org" target="_blank">CD\'s and downloads</a><br />
+<a title="Via Artis video channel" href="http://www.youtube.com/viaartiskonsort" target="_blank">Video channel</a><br />
+<a title="Via artis Konsort Facebook page" href="http://www.facebook.com/viaartiskonsort" target="_blank">Facebook page</a><br />
+<a title="Early World Music" href="https://www.facebook.com/pages/Early-World-Music/135118829865142?ref=ts&amp;fref=ts" target="_blank">Early World Music</a><br />
+<a title="Via Artis links to sites of interest" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/links-of-interest"; ?>">Other links of interest </a><br />';
 
   $export['other_links_english'] = $fe_block_boxes;
 
   $fe_block_boxes = new stdClass();
-  $fe_block_boxes->info = 'Otros enlaces de páginas Via Artis';
+  $fe_block_boxes->info = 'Otros enlaces a las paginas de Via Artis';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'other_links_spanish';
   $fe_block_boxes->body = '<div id="block-menu-title"><h2 class="block-title">Via Artis links</h2></div><div id="block-menu-elements"><p id="second-sidebar-menu">
-<a title="Página principal de Via Artis Konsort" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/es/concert-theme" ?>">Conciertos temáticos</a><br />
+<a title="Los programas temáticos de Via Artis" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/es/concert-theme"; ?>">Conciertos temáticos</a><br />
 <a title="Via Artis Konsort calendario de conciertos" href="http://<?php echo $_SERVER[\'SERVER_NAME\']  . "/es/calendar" ?>">Calendario</a><br />
 <a title="PARLA son online salg" href="http://shop.parla.org" target="_blank">CDs y bajadas</a><br />
 <a title="Via Artis videokanal" href="http://www.youtube.com/viaartiskonsort" target="_blank">Canal de video</a><br />
 <a title="Via Artis Facebookside" href="http://www.facebook.com/viaartiskonsort" target="_blank">Página Facebook</a><br />
 <a title="Early World Music" href="https://www.facebook.com/pages/Early-World-Music/135118829865142?ref=ts&amp;fref=ts" target="_blank">Early World Music</a><br />
-<a title="Via Artis enlaces" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/es/links-of-interest"; ?>">Enlaces de interés</a><br /></p></div>';
+<a title="Los enlaces interesantes de Via Artis" href="http://<?php echo $_SERVER[\'SERVER_NAME\'] . "/es/links-of-interest"; ?>">Otros enlaces</a><br />';
 
   $export['other_links_spanish'] = $fe_block_boxes;
 
@@ -368,7 +366,7 @@ function user_created_blocks_default_fe_block_boxes() {
   $fe_block_boxes->info = 'Via Artis link, Danish';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'via_artis_links_danish';
-  $fe_block_boxes->body = '<p id="via-artis-link">&nbsp;- En <a href="http://viaartis.info" target="_blank" title="About Via Artis Konsort">Via Artis Konsort </a> produktion</p>
+  $fe_block_boxes->body = '<p id="via-artis-link">&nbsp;- En <a href="http://viaartis.info" target="_blank" title="Om Via Artis Konsort">Via Artis Konsort </a>produktion</p>
 <?php
 drupal_add_js(\'jQuery(document).ready(function () { 
                var url_address;
@@ -384,7 +382,7 @@ drupal_add_js(\'jQuery(document).ready(function () {
   $fe_block_boxes->info = 'Via Artis link, English';
   $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'via_artis_links_english';
-  $fe_block_boxes->body = '<p id="via-artis-link">&nbsp;- A <a href="http://viaartis.info" target="_blank" title="About Via Artis Konsort">Via Artis Konsort </a> production</p>
+  $fe_block_boxes->body = '<p id="via-artis-link">&nbsp;- A <a href="http://viaartis.info" target="_blank" title="About Via Artis Konsort">Via Artis Konsort </a>production</p>
 <?php
 drupal_add_js(\'jQuery(document).ready(function () { 
                var url_address;
@@ -398,7 +396,7 @@ drupal_add_js(\'jQuery(document).ready(function () {
 
   $fe_block_boxes = new stdClass();
   $fe_block_boxes->info = 'Widget recommending promote videos, Danish';
-  $fe_block_boxes->format = 'filtered_html';
+  $fe_block_boxes->format = 'php_code';
   $fe_block_boxes->machine_name = 'widget_promote_videos_danish';
   $fe_block_boxes->body = '<p id="promote-video-text">Kommentarer og "likes" hjælper os med at forbedre vores synlighed på Youtube.
 Du er også meget velkommen til at dele videoerne med venner og kollegaer. Tak :)</p>
@@ -410,7 +408,7 @@ Du er også meget velkommen til at dele videoerne med venner og kollegaer. Tak :
   $fe_block_boxes->info = 'Widget recommending promote videos';
   $fe_block_boxes->format = 'full_html';
   $fe_block_boxes->machine_name = 'widget_promote_videos_english';
-  $fe_block_boxes->body = '<p id="promote-video-text">Liking or commenting on the video helps us improve our visibility on Youtube.<br> Also feel free to share the videos with your network. Thank you :)</p>';
+  $fe_block_boxes->body = '<p id="promote-video-text">Liking or commenting on the video helps us improve our visibility on Youtube.<br> Feel free to share the videos with your network. Thank you :)</p>';
 
   $export['widget_promote_videos_english'] = $fe_block_boxes;
 

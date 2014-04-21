@@ -53,7 +53,7 @@ function video_index_views_views_default_views() {
   $handler->display->display_options['fields']['field_video_url']['exclude'] = TRUE;
   $handler->display->display_options['fields']['field_video_url']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_video_url']['click_sort_column'] = 'url';
-  /* Field: Content: Video link */
+  /* Field: Field: Video link */
   $handler->display->display_options['fields']['field_video_link']['id'] = 'field_video_link';
   $handler->display->display_options['fields']['field_video_link']['table'] = 'field_data_field_video_link';
   $handler->display->display_options['fields']['field_video_link']['field'] = 'field_video_link';
@@ -154,6 +154,44 @@ function video_index_views_views_default_views() {
     'da' => 'da',
   );
   $handler->display->display_options['block_description'] = 'Video index, Danish';
+
+  /* Display: Block, Spanish */
+  $handler = $view->new_display('block', 'Block, Spanish', 'block_2');
+  $handler->display->display_options['display_description'] = 'Video index in Spanish';
+  $handler->display->display_options['defaults']['sorts'] = FALSE;
+  /* Sort criterion: Content: Sort order (field_sort_order) */
+  $handler->display->display_options['sorts']['field_sort_order_value']['id'] = 'field_sort_order_value';
+  $handler->display->display_options['sorts']['field_sort_order_value']['table'] = 'field_data_field_sort_order';
+  $handler->display->display_options['sorts']['field_sort_order_value']['field'] = 'field_sort_order_value';
+  /* Sort criterion: Content: Post date */
+  $handler->display->display_options['sorts']['created']['id'] = 'created';
+  $handler->display->display_options['sorts']['created']['table'] = 'node';
+  $handler->display->display_options['sorts']['created']['field'] = 'created';
+  $handler->display->display_options['sorts']['created']['order'] = 'DESC';
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'video_page' => 'video_page',
+  );
+  /* Filter criterion: Content: Language */
+  $handler->display->display_options['filters']['language']['id'] = 'language';
+  $handler->display->display_options['filters']['language']['table'] = 'node';
+  $handler->display->display_options['filters']['language']['field'] = 'language';
+  $handler->display->display_options['filters']['language']['value'] = array(
+    'es' => 'es',
+  );
+  $handler->display->display_options['block_description'] = 'Video Index, Spanish';
   $translatables['video_index'] = array(
     t('Master'),
     t('Video index'),
@@ -169,6 +207,9 @@ function video_index_views_views_default_views() {
     t('Video Index, English'),
     t('Block, Danish'),
     t('Video index, Danish'),
+    t('Block, Spanish'),
+    t('Video index in Spanish'),
+    t('Video Index, Spanish'),
   );
   $export['video_index'] = $view;
 

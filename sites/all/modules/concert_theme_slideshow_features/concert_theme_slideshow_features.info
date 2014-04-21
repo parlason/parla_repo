@@ -1,7 +1,7 @@
 name = Concert theme slideshow Features
 core = 7.x
 package = Features
-version = 7.x-1.0
+version = 7.x-2.0
 project = concert_theme_slideshow_features
 dependencies[] = views
 dependencies[] = views_slideshow

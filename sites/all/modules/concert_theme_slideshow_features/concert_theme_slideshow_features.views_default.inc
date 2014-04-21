@@ -206,6 +206,32 @@ function concert_theme_slideshow_features_views_default_views() {
   $handler->display->display_options['filters']['language']['value'] = array(
     'en' => 'en',
   );
+
+  /* Display: Concert theme slideshow, Spanish */
+  $handler = $view->new_display('block', 'Concert theme slideshow, Spanish', 'block_2');
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'concert_theme_element' => 'concert_theme_element',
+  );
+  /* Filter criterion: Content: Language */
+  $handler->display->display_options['filters']['language']['id'] = 'language';
+  $handler->display->display_options['filters']['language']['table'] = 'node';
+  $handler->display->display_options['filters']['language']['field'] = 'language';
+  $handler->display->display_options['filters']['language']['value'] = array(
+    'es' => 'es',
+  );
   $translatables['concert_theme_slide_show'] = array(
     t('Master'),
     t('Concert theme slide show'),
@@ -232,6 +258,7 @@ function concert_theme_slideshow_features_views_default_views() {
     t(' <div class="theme-presentation-text">[field_presentation_text]</div>'),
     t('Concert theme slideshow, Danish'),
     t('Concert theme slideshow, English'),
+    t('Concert theme slideshow, Spanish'),
   );
   $export['concert_theme_slide_show'] = $view;
 

@@ -242,6 +242,32 @@ function cd_slide_show_views_views_default_views() {
     'da' => 'da',
   );
   $handler->display->display_options['block_description'] = 'CD slide show block, Danish';
+
+  /* Display: Block Spanish */
+  $handler = $view->new_display('block', 'Block Spanish', 'block_2');
+  $handler->display->display_options['defaults']['filter_groups'] = FALSE;
+  $handler->display->display_options['defaults']['filters'] = FALSE;
+  /* Filter criterion: Content: Published */
+  $handler->display->display_options['filters']['status']['id'] = 'status';
+  $handler->display->display_options['filters']['status']['table'] = 'node';
+  $handler->display->display_options['filters']['status']['field'] = 'status';
+  $handler->display->display_options['filters']['status']['value'] = 1;
+  $handler->display->display_options['filters']['status']['group'] = 1;
+  $handler->display->display_options['filters']['status']['expose']['operator'] = FALSE;
+  /* Filter criterion: Content: Type */
+  $handler->display->display_options['filters']['type']['id'] = 'type';
+  $handler->display->display_options['filters']['type']['table'] = 'node';
+  $handler->display->display_options['filters']['type']['field'] = 'type';
+  $handler->display->display_options['filters']['type']['value'] = array(
+    'cd_slideshow_element' => 'cd_slideshow_element',
+  );
+  /* Filter criterion: Content: Language */
+  $handler->display->display_options['filters']['language']['id'] = 'language';
+  $handler->display->display_options['filters']['language']['table'] = 'node';
+  $handler->display->display_options['filters']['language']['field'] = 'language';
+  $handler->display->display_options['filters']['language']['value'] = array(
+    'es' => 'es',
+  );
   $translatables['cd_slideshow'] = array(
     t('Master'),
     t('CD slideshow'),
@@ -266,6 +292,7 @@ function cd_slide_show_views_views_default_views() {
     t('CD slide show block, English'),
     t('Block, Danish'),
     t('CD slide show block, Danish'),
+    t('Block Spanish'),
   );
   $export['cd_slideshow'] = $view;
 

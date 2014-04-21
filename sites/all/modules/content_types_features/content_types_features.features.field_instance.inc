@@ -676,7 +676,7 @@ function content_types_features_field_default_field_instances() {
         'year_range' => '-3:+3',
       ),
       'type' => 'date_popup',
-      'weight' => 2,
+      'weight' => 3,
     ),
   );
 
@@ -716,7 +716,7 @@ function content_types_features_field_default_field_instances() {
         'size' => 255,
       ),
       'type' => 'text_textfield',
-      'weight' => 1,
+      'weight' => 2,
     ),
   );
 
@@ -776,7 +776,12 @@ function content_types_features_field_default_field_instances() {
   // Exported field_instance: 'node-concert_program-field_program_element'
   $field_instances['node-concert_program-field_program_element'] = array(
     'bundle' => 'concert_program',
-    'default_value' => NULL,
+    'default_value' => array(
+      0 => array(
+        'value' => 'Title,<em> Composer</em> - Country YYth century',
+        'format' => 'filtered_html',
+      ),
+    ),
     'deleted' => 0,
     'description' => 'Enter in format Name, Composer, Origen and century',
     'display' => array(
@@ -1744,6 +1749,52 @@ function content_types_features_field_default_field_instances() {
       ),
       'type' => 'text_textarea',
       'weight' => 6,
+    ),
+  );
+
+  // Exported field_instance: 'node-musician_cv-field_sort_order'
+  $field_instances['node-musician_cv-field_sort_order'] = array(
+    'bundle' => 'musician_cv',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'number',
+        'settings' => array(
+          'decimal_separator' => '.',
+          'prefix_suffix' => TRUE,
+          'scale' => 0,
+          'thousand_separator' => ' ',
+        ),
+        'type' => 'number_integer',
+        'weight' => 4,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_sort_order',
+    'label' => 'Sort order',
+    'required' => 0,
+    'settings' => array(
+      'max' => '',
+      'min' => '',
+      'prefix' => '',
+      'suffix' => '',
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 0,
+      'module' => 'number',
+      'settings' => array(),
+      'type' => 'number',
+      'weight' => 42,
     ),
   );
 

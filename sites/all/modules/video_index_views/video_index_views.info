@@ -1,7 +1,7 @@
 name = Video Index Views
 core = 7.x
 package = Features
-version = 7.x-1.0
+version = 7.x-2.0
 project = video_index_views
 dependencies[] = views
 features[ctools][] = views:views_default:3.0
