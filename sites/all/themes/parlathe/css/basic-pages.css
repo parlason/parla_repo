@@ -657,6 +657,19 @@ padding-left: 10px;
 clear: both;
 }
 
+.sharing-buttons {
+	position: relative;
+	}
+
+.atss {
+top: 300px;
+}
+
+
+.atss-left {
+left: 0px;
+}
+
 /* ____________________________________________________________________ */
 
 /* FB page */
