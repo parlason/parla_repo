@@ -384,5 +384,9 @@ input#submit-form {
 
 #block-system-powered-by {
 	font-size: 0.9em;
-	font-family: Josefin Sans", sans-serif;
+	font-family: "Josefin Sans", sans-serif;
 }
+
+#block-block-4 {
+	height: 0px;
+	}
