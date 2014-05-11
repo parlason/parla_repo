@@ -1,0 +1,15 @@
+name = Post-Features
+description = Posts exported via Features
+core = 7.x
+package = Features
+version = 7.x-1.0
+project = post_features
+dependencies[] = content_types_features
+dependencies[] = features
+dependencies[] = node_export_features
+features[features_api][] = api:2
+features[node_export_features][] = 0fbf70d3-cdbe-48ea-8502-56df1d096f1d
+features[node_export_features][] = 475d22dd-3273-4a4c-8ec4-25087e2353ac
+features[node_export_features][] = 6c6ce497-8678-427a-b4eb-2e1e5b7aec8c
+features[node_export_features][] = b8ce034f-9296-41c5-a82c-75daefed86dc
+features_exclude[dependencies][node_export_features] = node_export_features
