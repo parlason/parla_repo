@@ -358,7 +358,7 @@ color: #808080;
 }    
 
 article.node-teaser .field-name-field-video-link {
-margin-left: 15px;
+margin-left: 10px;
 }
 
 article.node-teaser	.field-name-field-video-text {
@@ -446,7 +446,11 @@ margin-bottom: 1.2em;
 color: green;
 }
 
-
+.section-blog ul.pager {
+	font-size: 75%;
+	position: relative;
+	left: -6em;
+	}
 /* ____________________________________________________________________ */
 
 /* Video page */
@@ -562,7 +566,7 @@ top: 2.5em;
 position: relative;
 top: 4em;
 left: 0.7em;
-width: 580px;
+width: 630px;
 margin-bottom: 4em;
 }
 
@@ -820,6 +824,12 @@ left: 0px;
 .node-type-event-element .node-event-element {
 	position: relative;
 	top: -2.1em;
+	}
+	
+.node-type-event-element .bottom-sharing-buttons {
+	position: relative;
+	top: -3.7em;
+	left: 2em;
 	}
 	
 /* ____________________________________________________________________ */
