@@ -66,7 +66,7 @@ function void_menu_menu_link_alter(&$item, $menu) {
   }
   else {
     unset($item['options']['unaltered_hidden']);
-    $item['options']['external'] = (url_is_external($item['link_path']) || $item['link_path'] == '<front>') ? 1 : 0;
+    $item['options']['external'] = (url_is_external($item['link_path'])) ? 1 : 0;
   }
 }
 
@@ -94,7 +94,7 @@ function void_menu_translated_menu_link_alter(&$item, $map) {
     }
     else {
       unset($item['options']['unaltered_hidden']);
-      $item['options']['external'] = (url_is_external($item['link_path']) || $item['link_path'] == '<front>') ? 1 : 0;
+      $item['options']['external'] = (url_is_external($item['link_path'])) ? 1 : 0;
     }
 
     $item['href'] = $href;
