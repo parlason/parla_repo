@@ -5,9 +5,11 @@
 # sites/*/files
 # sites/*/files/.*
 # Ignore user generated content like graphics
-sites/*/files/
-
-sites/*/private
+sites/viaartis.info/*
+sites/viaartis.info.art-of-touch/*
+sites/viaartis.info.songbook-from-eldorado/*
+sites/viaartis.info.war/*
+# sites/*/private
 
 # Ignore files specific to web hosting
 # sites/sites.php
@@ -15,6 +17,6 @@ sites/*/private
 # art
 # songbook
 # copenhagen
-# .gitignore
+.gitignore
 .htaccess
 
