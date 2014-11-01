@@ -1,3 +1,247 @@
+/* Presentation page */
+
+.text-header-vertical, .text-header-vertical-es {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 2em;
+	color: grey;
+    -moz-transform: rotate(270deg);  /* FF3.5+ */        
+    -o-transform: rotate(270deg);  /* Opera 10.5 */   
+    -webkit-transform: rotate(270deg);  /* Saf3.1+, Chrome */              
+    filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=3);  /* IE6,IE7 */          
+    -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3); /* IE8 */ 
+    }
+    
+.text-header-horizontal {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.7em;
+	color: green;
+    }
+    
+#current-block .text-header-vertical {
+    position: relative;
+    top: -3.8em;
+    left: -10.8em;
+    }
+    
+#current-block .text-header-vertical-es {
+    position: relative;
+    top: -3.5em;
+    left: -10.8em;
+    }
+    
+#upcoming-events .text-header-horizontal {
+    position: relative;
+    top: 0.9em;
+    left: 1.1em;
+    clear: left;
+    }
+    
+#text-block .text-header-vertical {
+    position: relative;
+    top: -4.5em;
+    left: -10.8em;
+    }
+    
+#text-block .text-header-vertical-es {
+    position: relative;
+    top: -3.1em;
+    left: -10.8em;
+    }
+
+#current-block {
+	position: relative;
+	top: -6em;
+	left: 2em;
+	width: 630px;
+	}
+
+#current-block h2.node-title {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.7em;
+	display: none;
+	}
+	
+#current-block h2.node-title a {
+	color: green;
+	}
+	
+#current-block .field-name-field-video-text {
+	position: relative;
+	top: 1em;
+}
+
+#post {
+	position: relative;
+	top: -0.4em;
+	float: left;
+	}
+
+#current-block .view-presentation-page-current-title {
+	position: relative;
+	top: -0.45em;
+	font-family: 'EB Garamond', serif;
+	font-size: 1em;
+	}
+	
+#current-block .view-presentation-page-current-title a {
+	color: green;
+	}
+	
+#current-block .views-table {
+	margin: 0;
+	}
+
+
+#drawing {
+	position: relative;
+	top: -9em;
+	left: 6.5em;
+	}
+
+
+#upcoming-events .event-row {
+	position: relative;
+	font-family: "Verdana","sans serif";
+	font-size: 0.75em;
+	font-weight: normal;
+	letter-spacing: 0.05em;
+	margin-bottom: 5px;
+	}
+#upcoming-events .views-row-odd {
+	color: white; 
+	}
+#upcoming-events .views-row-odd a {
+	color: white;
+	}
+#upcoming-events .views-row-even a {
+	color: black;
+	}
+
+##upcoming-events .views-field-field-event-teaser-photo	{
+	position: relative;
+	top: -7.5em;
+	}
+	
+#upcoming-events .event-date {
+	position: absolute;
+	top: -7.3em;
+	left: 10em;
+	font-weight: bolder;
+	}
+	
+#upcoming-events .event-program {
+	position: absolute;
+	top: -7.3em;
+	left: 35.5em;
+	font-weight: bolder;
+	}
+
+#upcoming-events .event-teaser p {
+	font-family: 'Verdana', sans-serif;
+	font-size: 0.9em;
+	}
+	
+#upcoming-events .event-teaser {
+	position: absolute;
+	top: -5.8em;
+	left: 10em;
+	}
+	
+#upcoming-events .event-address {
+	position: absolute;
+	top: -4.8em;
+	left: 11.12em;	
+	font-size: 0.9em;
+	}
+
+#upcoming-events .event-location p {
+	font-family: 'Verdana', sans-serif;
+	font-size: 0.8em;
+	}
+		
+#upcoming-events .event-location {
+	position: absolute;
+	top: -2.8em;
+	left: 10em;	
+	}
+
+#upcoming-events .event-artist {
+	position: absolute;
+	top: -3.4em;
+	left: 485px;
+	font-size: 0.8em;
+	color: white;	
+	}
+	
+#upcoming-events .views-row-odd .event-background-transparency {
+position: absolute;
+top: -7.45em;
+left: 100px;
+width: 530px;
+height: 81px;
+background-color: green;
+opacity: 0.6;
+-moz-opacity: 0.6:;
+}
+
+#upcoming-events .views-row-even .event-background-transparency {
+position: absolute;
+top: -7.45em;
+left: 100px;
+width: 530px;
+height: 81px;
+background-color:  #F0B900;
+opacity: 0.6;
+-moz-opacity: 0.6:;
+}
+
+#upcoming-events ul {
+list-style-type: none;
+}
+
+#upcoming-events .field-items {
+	position: relative;
+	top: -2.1em;
+	}
+	
+
+#upcoming-events {
+	position: relative;
+	top: -5.9em;
+	left: 0.1em;
+	}
+
+p#all-concerts a {
+	position: relative;
+	top: -2em;
+	left: 11.6em;
+	font-family: verdana, sans-serif;
+	font-size: 0.8em;
+	font-weight: 500;
+	color: green;
+	z-index: 10;
+	}
+	
+#text-block .soundcloud-container {
+	position: relative;
+	top: 0em;
+	left: 0em;
+	}
+	
+#text-block {
+	position: relative;
+	top: -11.9em;
+	left: 2em;
+	width: 630px;
+
+	}	
+	
+#text-block a {
+	color: green;
+	}	
+
+/* ____________________________________________________________________ */
+
 
 
 /* Via Artis Konsort page */
@@ -107,7 +351,7 @@ margin-bottom: 7em;
 	left: 0.5em;
 	font-family: 'Josefin Sans', sans-serif;
 	/*	font-family: Verdana, "Trebuchet MS", Helvetica, sans-serif;
-font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif; */
+	font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif; */
 	font-size: 1.4em;
 	letter-spacing: 0.1em;
 	font-weight: bolder;
