@@ -58,7 +58,8 @@ if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'd7.local') {
  $sites['d7.local.vak'] = 'viaartis.info';
  $sites['d7.local.songbook'] = 'viaartis.info.songbook-from-eldorado';
  $sites['d7.local.art'] = 'viaartis.info.art-of-touch'; 
- $sites['d7.local.war'] = 'viaartis.info.war'; 
+ $sites['d7.local.war'] = 'viaartis.info.war';
+ $sites['d7.local.escarraman'] = 'viaartis.info.escarraman';  
 }
  
 else {

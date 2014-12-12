@@ -1,0 +1,24 @@
+/* Arrange elements in Favicon gallery */
+
+.view-favicon-gallery .views-row {
+	float: left;
+}
+
+/* Add a 40px padding to left side of 2. sidebar */
+.region-sidebar-second {
+	padding-left: 40px;
+	}
+	
+/* Align Header and Site-slogan in the center */
+.header__name-and-slogan {
+	padding-left: 15px;
+    }
+    
+.header__name-and-slogan #site-slogan {
+	text-align: center;
+}
+
+/* Move the logo outside of the frame */
+.header__logo {
+	margin-left: -40px;
+	}

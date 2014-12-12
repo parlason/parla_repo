@@ -708,6 +708,22 @@ function content_types_features_field_default_field_bases() {
     'type' => 'image',
   );
 
+  // Exported field_base: 'field_index'
+  $field_bases['field_index'] = array(
+    'active' => 1,
+    'cardinality' => 1,
+    'deleted' => 0,
+    'entity_types' => array(),
+    'field_name' => 'field_index',
+    'foreign keys' => array(),
+    'indexes' => array(),
+    'locked' => 0,
+    'module' => 'number',
+    'settings' => array(),
+    'translatable' => 0,
+    'type' => 'number_integer',
+  );
+
   // Exported field_base: 'field_link_to_downloadable_text'
   $field_bases['field_link_to_downloadable_text'] = array(
     'active' => 1,

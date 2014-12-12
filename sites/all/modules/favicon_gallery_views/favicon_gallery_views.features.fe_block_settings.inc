@@ -29,17 +29,17 @@ function favicon_gallery_views_default_fe_block_settings() {
         'theme' => 'bartik',
         'weight' => 0,
       ),
+      'parlathe' => array(
+        'region' => 'sidebar_second',
+        'status' => 1,
+        'theme' => 'parlathe',
+        'weight' => -24,
+      ),
       'seven' => array(
         'region' => '',
         'status' => 0,
         'theme' => 'seven',
         'weight' => 0,
-      ),
-      'war_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'war_theme',
-        'weight' => -11,
       ),
     ),
     'title' => '<none>',
