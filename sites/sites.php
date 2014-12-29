@@ -63,9 +63,12 @@ if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'd7.local') {
 }
  
 else {
- $sites['viaartis.info.linux54.unoeuro-server.com.vak'] = 'viaartis.info';
- $sites['viaartis.info.linux54.unoeuro-server.com.songbook'] = 'viaartis.info.songbook-from-eldorado';
- $sites['viaartis.info.linux54.unoeuro-server.com.art'] = 'viaartis.info.art-of-touch';
+ $sites['ndevel.pairsite.com'] = 'viaartis.info';
+ $sites['ndevel.pairsite.com.via-artis-konsort'] = 'viaartis.info';
+ $sites['ndevel.pairsite.com.art-of-touch'] = 'viaartis.info.art-of-touch'; 
+ $sites['ndevel.pairsite.com.copenhagen-chansonnier'] = 'viaartis.info.copenhagen-chansonnier';   
+ $sites['ndevel.pairsite.com.songbook-from-eldorado'] = 'viaartis.info.songbook-from-eldorado'; 
+ $sites['ndevel.pairsite.com.escarraman'] = 'viaartis.info.escarraman';
 } 
  
  

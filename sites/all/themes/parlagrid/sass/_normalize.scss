@@ -193,11 +193,15 @@ body {
 
 	
 /* Navigation bar */
-nav#main-menu { /*
-	background-color: grey;
+nav#main-menu { 
+	background: rgba(0,0,0,0.4);
+	padding: 0 10px;
 	margin-left: -10px;
 	margin-right: -10px;
-	padding-left: 10px; */
+}
+
+nav#main-menu a { 
+	z-index: 15;
 }
 
 div#main-menu-transparent {
@@ -822,7 +826,6 @@ table {
 
 .views-slideshow-cycle-main-frame {
 	width: 80%;
-	length: 120%
 	}
 	
 .views-slideshow-controls-top {
@@ -834,11 +837,31 @@ z-index: 3;
 padding-bottom: 20px;
 }
 
+/* Avoid element style height (miscalculated) */
+.views_slideshow_cycle_slide {
+	height: auto !important;
+	}
+
 .views-field-field-cv-photo-first {
 	margin-right: 10px;
 	}
+
+.views-field-field-cv-photo-first, .views-field-field-cv-photo-second {
+	display: block;
+	float: left;
+	max-width: 47%;
+	}	
 	
-.cv-title-transparent {
+.views-field-field-cv-photo-second {
+	float: left;
+	}	
+
+.title-layer {
+	display: block;
+	max-width: 50%;
+	}
+	
+/* .cv-title-transparent {
 background-color: green;
 height: 34px;
 left: -0px;
@@ -846,17 +869,20 @@ opacity: 0.4;
 position: relative;
 top: -40px;
 width: 250px;
-}
+} */
 
 .cv-title {
 
-font-size: 1.3em;
+font-size: 1.1em;
 color: white;
 font-weight: 400;
 position: relative;
-top: -35px;
-left: 3px;
+top: -32px;
+left: 1px;
 z-index: 4;
+background: rgba(114, 138, 72, 0.6);
+padding-left: 5px;
+padding-right: 5px;
 }
 
 p.text-header {
@@ -871,3 +897,4 @@ font-size: 1.3em;
 	position: relative;
 	top: -2em;
 	}
+	
