@@ -54,22 +54,19 @@
  * @see http://drupal.org/documentation/install/multi-site
  */
  
-if (isset($_SERVER['SERVER_NAME']) && $_SERVER['SERVER_NAME'] == 'd7.local') {
- $sites['d7.local.vak'] = 'viaartis.info';
- $sites['d7.local.songbook'] = 'viaartis.info.songbook-from-eldorado';
- $sites['d7.local.art'] = 'viaartis.info.art-of-touch'; 
- $sites['d7.local.war'] = 'viaartis.info.war';
- $sites['d7.local.escarraman'] = 'viaartis.info.escarraman';  
-}
- 
-else {
- $sites['ndevel.pairsite.com'] = 'viaartis.info';
- $sites['ndevel.pairsite.com.via-artis-konsort'] = 'viaartis.info';
- $sites['ndevel.pairsite.com.art-of-touch'] = 'viaartis.info.art-of-touch'; 
- $sites['ndevel.pairsite.com.copenhagen-chansonnier'] = 'viaartis.info.copenhagen-chansonnier';   
- $sites['ndevel.pairsite.com.songbook-from-eldorado'] = 'viaartis.info.songbook-from-eldorado'; 
- $sites['ndevel.pairsite.com.escarraman'] = 'viaartis.info.escarraman';
-} 
+
+/* Set the server name */
+ $sites[$_SERVER['SERVER_NAME']] = 'viaartis.info';
+ $sites[$_SERVER['SERVER_NAME'] . ".songbook"] = 'viaartis.info.songbook-from-eldorado';
+ $sites[$_SERVER['SERVER_NAME'] . ".art"] = 'viaartis.info.art-of-touch'; 
+ $sites[$_SERVER['SERVER_NAME'] . ".war"] = 'viaartis.info.war';
+ $sites[$_SERVER['SERVER_NAME'] . ".escarraman"] = 'viaartis.info.escarraman';  
+ $sites['escarraman.com'] = 'viaartis.info.escarraman';
+ $sites['www.escarraman.com'] = 'viaartis.info.escarraman';
+ $sites['flamenco.info'] = 'viaartis.info.art-of-touch';
+ $sites['www.flamenco.info'] = 'viaartis.info.art-of-touch';
+
+
  
  
  

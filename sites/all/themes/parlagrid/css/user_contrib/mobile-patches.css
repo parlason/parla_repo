@@ -1,0 +1,18 @@
+@media all and (max-width: 480px) { 
+	h1#site-name {
+		/* Reduce the size and spacing to avoid breaking of words */
+		font-size: 2.6em;
+		letter-spacing: 0.08em;
+		}
+	h1#page-title {
+		/* Reduce the size */
+		font-size: 1.8em;
+		}
+		
+	.header__name-and-slogan {
+	/* Move title up and provide more bottom space */
+	position: relative;
+	top: -5px;
+	padding-bottom: 20px;
+	}
+  }
