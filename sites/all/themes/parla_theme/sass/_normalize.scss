@@ -190,8 +190,7 @@ body {
   padding: 0;
   background: url("../images/roseton.png") no-repeat fixed 175px 100px transparent;
 }
-
-	
+		
 /* Navigation bar */
 nav#main-menu { 
 	background: rgba(0,0,0,0.4);
@@ -238,7 +237,7 @@ nav#main-menu a {
 
 .not-front .node-page {
 	position: relative;
-	top: -30px;
+	top: -31px;
 	}
 	
 
@@ -340,6 +339,7 @@ div#block-views-favicon-gallery-block {
 .upcoming-event-block {
 	position: relative;
 	top: 20px;
+	padding-top: 48px; /* move the entire sidebar downwards */
 	}
 
 .region-sidebar-second p.text-header {

@@ -173,7 +173,7 @@ body {
 }
 
 /* Navigation bar */
-/* line 196, ../sass/_normalize.scss */
+/* line 195, ../sass/_normalize.scss */
 nav#main-menu {
   background: rgba(0, 0, 0, 0.4);
   padding: 0 10px;
@@ -181,12 +181,12 @@ nav#main-menu {
   margin-right: -10px;
 }
 
-/* line 203, ../sass/_normalize.scss */
+/* line 202, ../sass/_normalize.scss */
 nav#main-menu a {
   z-index: 15;
 }
 
-/* line 207, ../sass/_normalize.scss */
+/* line 206, ../sass/_normalize.scss */
 div#main-menu-transparent {
   position: relative;
   top: -1.65em;
@@ -202,7 +202,7 @@ div#main-menu-transparent {
   z-index: -10;
 }
 
-/* line 222, ../sass/_normalize.scss */
+/* line 221, ../sass/_normalize.scss */
 nav#main-menu a {
   font-family: 'Josefin Sans', sans-serif;
   font-variant: small-caps;
@@ -219,10 +219,10 @@ nav#main-menu a {
 }
 
 /* The situation of the article content */
-/* line 239, ../sass/_normalize.scss */
+/* line 238, ../sass/_normalize.scss */
 .not-front .node-page {
   position: relative;
-  top: -30px;
+  top: -31px;
 }
 
 /**
@@ -231,37 +231,37 @@ nav#main-menu a {
  * The order of link states are based on Eric Meyer's article:
  * http://meyerweb.com/eric/thoughts/2007/06/11/who-ordered-the-link-states
  */
-/* line 251, ../sass/_normalize.scss */
+/* line 250, ../sass/_normalize.scss */
 a:link {
   text-decoration: none;
   color: green;
 }
 
-/* line 255, ../sass/_normalize.scss */
+/* line 254, ../sass/_normalize.scss */
 a:visited {
   text-decoration: none;
   color: green;
 }
 
-/* line 260, ../sass/_normalize.scss */
+/* line 259, ../sass/_normalize.scss */
 a:hover,
 a:focus {
   text-decoration: underline;
 }
 
-/* line 263, ../sass/_normalize.scss */
+/* line 262, ../sass/_normalize.scss */
 a:active {
   color: red;
 }
 
 /* Address `outline` inconsistency between Chrome and other browsers. */
-/* line 268, ../sass/_normalize.scss */
+/* line 267, ../sass/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
 
 /* Improve readability when focused and also mouse hovered in all browsers. */
-/* line 274, ../sass/_normalize.scss */
+/* line 273, ../sass/_normalize.scss */
 a:active,
 a:hover {
   outline: 0;
@@ -277,18 +277,18 @@ a:hover {
  * For more information, see http://24ways.org/2006/compose-to-a-vertical-rhythm
  */
 /* Set 1 unit of vertical rhythm on the top and bottom margin. */
-/* line 290, ../sass/_normalize.scss */
+/* line 289, ../sass/_normalize.scss */
 p,
 pre {
   margin: 1.5em 0;
 }
 
-/* line 294, ../sass/_normalize.scss */
+/* line 293, ../sass/_normalize.scss */
 p.smaller {
   font-size: 85%;
 }
 
-/* line 298, ../sass/_normalize.scss */
+/* line 297, ../sass/_normalize.scss */
 #site-slogan {
   /* The slogan (or tagline) of a website */
   font-family: Josefin Sans, sans-serif;
@@ -302,7 +302,7 @@ p.smaller {
   -webkit-font-smoothing: antialiased;
 }
 
-/* line 311, ../sass/_normalize.scss */
+/* line 310, ../sass/_normalize.scss */
 h1#page-title {
   font-size: 1.6em;
   letter-spacing: 0.15em;
@@ -312,7 +312,7 @@ h1#page-title {
   top: -0.7em;
 }
 
-/* line 320, ../sass/_normalize.scss */
+/* line 319, ../sass/_normalize.scss */
 p#via-artis-link {
   position: relative;
   top: -2.8em;
@@ -322,7 +322,7 @@ p#via-artis-link {
 }
 
 /* Favicon gallery in 2. sidebar */
-/* line 331, ../sass/_normalize.scss */
+/* line 330, ../sass/_normalize.scss */
 div#block-views-favicon-gallery-block {
   position: relative;
   top: -10px;
@@ -331,10 +331,12 @@ div#block-views-favicon-gallery-block {
 }
 
 /* Upcoming elements i 2. sidebar */
-/* line 340, ../sass/_normalize.scss */
+/* line 339, ../sass/_normalize.scss */
 .upcoming-event-block {
   position: relative;
   top: 20px;
+  padding-top: 48px;
+  /* move the entire sidebar downwards */
 }
 
 /* line 345, ../sass/_normalize.scss */
@@ -2331,8 +2333,26 @@ tr.selected td {
   padding-right: 0.5em;
 }
 
+@media all and (min-width: 960px) {
+  /* line 59, ../sass/user_contrib/_umisc.scss */
+  #content, .region-sidebar-second {
+    position: relative;
+    top: -50px;
+  }
+
+  /* line 64, ../sass/user_contrib/_umisc.scss */
+  #block-locale-language {
+    border: medium none;
+    display: block;
+    position: absolute;
+    top: -85px;
+    right: 0;
+    width: auto;
+    margin-bottom: 0em;
+  }
+}
 /* Align elements in credit block, Footer */
-/* line 61, ../sass/user_contrib/_umisc.scss */
+/* line 77, ../sass/user_contrib/_umisc.scss */
 div.fond-logo {
   float: left;
   margin-right: 40px;
@@ -2341,7 +2361,7 @@ div.fond-logo {
 
 /* General corrections for mobile phones */
 @media all and (max-width: 640px) {
-  /* line 70, ../sass/user_contrib/_umisc.scss */
+  /* line 86, ../sass/user_contrib/_umisc.scss */
   .header__name-and-slogan {
     padding-left: 20px;
     clear: both;
@@ -2350,30 +2370,30 @@ div.fond-logo {
     margin-right: auto;
   }
 
-  /* line 78, ../sass/user_contrib/_umisc.scss */
+  /* line 94, ../sass/user_contrib/_umisc.scss */
   h1#site-name {
     font-size: 2.1em;
     text-align: center;
   }
 
-  /* line 83, ../sass/user_contrib/_umisc.scss */
+  /* line 99, ../sass/user_contrib/_umisc.scss */
   .header__logo {
     position: relative;
     left: 35px;
   }
 
-  /* line 88, ../sass/user_contrib/_umisc.scss */
+  /* line 104, ../sass/user_contrib/_umisc.scss */
   p#cv-photo-guide {
     left: 160px;
   }
 
-  /* line 92, ../sass/user_contrib/_umisc.scss */
+  /* line 108, ../sass/user_contrib/_umisc.scss */
   h1#page-title {
     font-size: 1.4em;
     letter-spacing: 0.13em;
   }
 
-  /* line 97, ../sass/user_contrib/_umisc.scss */
+  /* line 113, ../sass/user_contrib/_umisc.scss */
   #block-locale-language {
     margin-top: 137px;
   }
@@ -2793,7 +2813,7 @@ body {
 /* line 3, ../sass/user_contrib/recordings-page.scss */
 .section-recordings .view-cd-slideshow {
   position: relative;
-  top: -5.5em;
+  top: -5.2em;
   left: 0em;
   max-width: 100%;
 }
@@ -3030,7 +3050,7 @@ body {
 /* line 2, ../sass/user_contrib/_blog-page.scss */
 .section-blog .view-frontpage {
   position: relative;
-  top: -50px;
+  top: -56px;
   left: 15px;
 }
 /* line 8, ../sass/user_contrib/_blog-page.scss */

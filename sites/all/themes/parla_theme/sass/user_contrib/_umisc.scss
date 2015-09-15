@@ -55,6 +55,22 @@
 	padding-right: 0.5em;
 	}
 
+@media all and (min-width: 960px) {
+  	#content, .region-sidebar-second {
+  	position: relative;
+  	top: -50px;
+  	}
+  	
+  #block-locale-language {
+	border: medium none;
+	display: block;
+	position: absolute;
+	top: -85px;
+	right: 0;
+	width: auto;
+	margin-bottom: 0em;
+	} 
+}
 	
 /* Align elements in credit block, Footer */
 
