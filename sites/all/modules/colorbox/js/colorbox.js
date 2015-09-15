@@ -2,7 +2,7 @@
 
 Drupal.behaviors.initColorbox = {
   attach: function (context, settings) {
-    if (!$.isFunction($.colorbox)) {
+    if (!$.isFunction($.colorbox) || typeof settings.colorbox === 'undefined') {
       return;
     }
 
@@ -13,7 +13,7 @@ Drupal.behaviors.initColorbox = {
         return;
       }
     }
-	
+
     $('.colorbox', context)
       .once('init-colorbox')
       .colorbox(settings.colorbox);
