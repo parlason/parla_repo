@@ -28,7 +28,7 @@ function addtoany_admin_settings() {
   'text'                         => 'Text only',
   'none'                         => 'None',
   );
-  
+
   $form['#attached']['js'] = array(
     drupal_get_path('module', 'addtoany') . '/addtoany.admin.js',
   );
@@ -59,7 +59,7 @@ function addtoany_admin_settings() {
     '#type'          => 'textarea',
     '#title'         => t('Service Buttons HTML code'),
     '#default_value' => variable_get('addtoany_additional_html', ''),
-    '#description'   => t('You can add HTML code to display customized <a href="https://www.addtoany.com/buttons/customize/standalone_services" target="_blank">standalone service buttons</a> next to each universal sharing button. For example: <br /> <code>&lt;a class=&quot;a2a_button_facebook&quot;&gt;&lt;/a&gt;<br />&lt;a class=&quot;a2a_button_twitter&quot;&gt;&lt;/a&gt;<br />&lt;a class=&quot;a2a_button_pinterest&quot;&gt;&lt;/a&gt;</code>
+    '#description'   => t('You can add HTML code to display customized <a href="https://www.addtoany.com/buttons/customize/drupal/standalone_services" target="_blank">standalone service buttons</a> next to each universal sharing button. For example: <br /> <code>&lt;a class=&quot;a2a_button_facebook&quot;&gt;&lt;/a&gt;<br />&lt;a class=&quot;a2a_button_twitter&quot;&gt;&lt;/a&gt;<br />&lt;a class=&quot;a2a_button_pinterest&quot;&gt;&lt;/a&gt;</code>
     '),
   );
   $form['addtoany_button_settings']['addtoany_service_button_settings']['addtoany_additional_html_placement'] = array(
@@ -109,7 +109,7 @@ function addtoany_admin_settings() {
     '#default_value' => variable_get('addtoany_link_text', ''),
     '#description'   => t('Text for the universal sharing button link. Example: Share'),
   );
-  
+
   $form['addtoany_placement_settings'] = array(
     '#type'  => 'fieldset',
     '#title' => t('Placement'),
@@ -148,6 +148,12 @@ function addtoany_admin_settings() {
     '#default_value' => variable_get('addtoany_display_in_nodecont', '0'),
     '#description'   => t('Display buttons in the <strong>content</strong> section of node pages.'),
   );
+  $form['addtoany_placement_settings']['addtoany_display_in_rss'] = array(
+    '#type'          => 'checkbox',
+    '#title'         => t('Display in <strong>RSS</strong> feed'),
+    '#default_value' => variable_get('addtoany_display_in_rss', '1'),
+    '#description'   => t('Display buttons in the RSS feed.'),
+  );
   $form['addtoany_placement_settings']['addtoany_display_weight'] = array(
     '#type'          => 'weight',
     '#title'         => t('Content weight'),
@@ -172,7 +178,13 @@ function addtoany_admin_settings() {
     '#type'          => 'textarea',
     '#title'         => t('Additional JavaScript'),
     '#default_value' => variable_get('addtoany_additional_js', ''),
-    '#description'   => t('You can add special JavaScript code for AddToAny. Advanced users might want to check out AddToAny\'s <a href="https://www.addtoany.com/buttons/api/" target="_blank">JavaScript API</a> and <a href="https://www.addtoany.com/buttons/customize/" target="_blank">documentation</a>.'),
+    '#description'   => t('You can add special JavaScript code for AddToAny. Advanced users might want to check out AddToAny\'s <a href="https://www.addtoany.com/buttons/api/" target="_blank">JavaScript API</a> and <a href="https://www.addtoany.com/buttons/customize/drupal" target="_blank">documentation</a>.'),
+  );
+  $form['addtoany_additional_settings']['addtoany_additional_css'] = array(
+    '#type'          => 'textarea',
+    '#title'         => t('Additional CSS'),
+    '#default_value' => variable_get('addtoany_additional_css', ''),
+    '#description'   => t('You can add special CSS code for AddToAny. See <a href="https://www.addtoany.com/buttons/customize/drupal" target="_blank">AddToAny documentation</a> for customizations.'),
   );
   $form['addtoany_additional_settings']['addtoany_no_3p'] = array(
     '#type'          => 'checkbox',

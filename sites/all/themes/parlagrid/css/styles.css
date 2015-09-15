@@ -949,12 +949,30 @@ p.text-header {
   font-style: normal;
   font-weight: 400;
   font-size: 1.3em;
+  line-height: 1.4em;
 }
 
-/* line 897, ../sass/_normalize.scss */
+/* line 898, ../sass/_normalize.scss */
 .views-field-field-cv-text {
   position: relative;
   top: -2em;
+}
+
+/* Participants page */
+/* line 904, ../sass/_normalize.scss */
+p#cv-photo-guide {
+  position: relative;
+  top: -45px;
+  left: 370px;
+  font-size: 95%;
+  color: green;
+  max-width: 300px;
+}
+
+/* line 913, ../sass/_normalize.scss */
+.musician-cv {
+  position: relative;
+  top: -30px;
 }
 
 /* Layout rules */
@@ -2142,8 +2160,9 @@ div.fond-logo {
   margin-bottom: 20px;
 }
 
+/* Corrections for mobile phones */
 @media all and (max-width: 640px) {
-  /* line 39, ../sass/user_contrib/_umisc.scss */
+  /* line 41, ../sass/user_contrib/_umisc.scss */
   .header__name-and-slogan {
     padding-left: 0;
     float: none;
@@ -2151,15 +2170,26 @@ div.fond-logo {
     margin-right: auto;
   }
 
-  /* line 45, ../sass/user_contrib/_umisc.scss */
+  /* line 47, ../sass/user_contrib/_umisc.scss */
   h1#site-name {
     text-align: center;
   }
 
-  /* line 49, ../sass/user_contrib/_umisc.scss */
+  /* line 51, ../sass/user_contrib/_umisc.scss */
   .header__logo {
     position: relative;
     left: 35px;
+  }
+
+  /* line 56, ../sass/user_contrib/_umisc.scss */
+  p#cv-photo-guide {
+    left: 160px;
+  }
+
+  /* line 60, ../sass/user_contrib/_umisc.scss */
+  h1#page-title {
+    font-size: 1.1em;
+    letter-spacing: 0.10em;
   }
 }
 /**

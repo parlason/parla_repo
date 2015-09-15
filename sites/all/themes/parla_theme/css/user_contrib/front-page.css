@@ -1,0 +1,46 @@
+/* line 1, ../../sass/user_contrib/front-page.scss */
+article.node-promoted .submitted {
+  display: none;
+}
+
+/* line 5, ../../sass/user_contrib/front-page.scss */
+body.front h2.node-title {
+  display: none;
+}
+
+/* line 9, ../../sass/user_contrib/front-page.scss */
+.read-the-post p {
+  position: relative;
+  top: -1em;
+  margin: 0;
+}
+
+/* line 15, ../../sass/user_contrib/front-page.scss */
+p#post-text {
+  margin: 0;
+}
+
+/* line 18, ../../sass/user_contrib/front-page.scss */
+#text-block p {
+  margin-top: 0;
+}
+
+/* line 22, ../../sass/user_contrib/front-page.scss */
+#frontpage-player {
+  position: relative;
+  top: 25px;
+}
+
+/* line 27, ../../sass/user_contrib/front-page.scss */
+#drawing {
+  position: relative;
+  top: 30px;
+}
+
+/* line 32, ../../sass/user_contrib/front-page.scss */
+#drawing p {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}

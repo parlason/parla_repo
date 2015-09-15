@@ -1,0 +1,74 @@
+/* Via Artis Konsort page */
+
+body {
+	overflow-x: hidden;
+}
+
+.section-early-music-ensemble {
+    .views-slideshow-cycle-main-frame {
+	width: 100%;
+	max-height: 220px;
+	margin-top: -10px;
+	margin-bottom: 15px;
+	margin-right: 20px;
+	float: left;
+	}
+	
+.embedded-photo-text {
+	position: relative;
+	top: -3.1em;
+	left: 1.5em;
+	font-size: 0.7em;
+	color: white;
+	}
+	
+#text-second-part {
+	position: relative;
+	top: -1.4em;
+	}
+	
+.embedded-photo-text-background {
+	display: block;
+	position: absolute;
+	background-color: black;
+    height: 31px;
+    width: 300px;
+    top: 170px;
+    left: 0.1em;
+    opacity: 0.4;
+    }
+    
+#via-artis-konsort-presentation {
+	position: relative;
+	top: 0em;
+	left: 0em;
+	width: auto;
+	padding-right: 1.5em;/* 41em; */
+	}
+
+
+.embedded-photo img {
+	border: 1px solid black;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	@include image-shadow-dark;
+	}
+	
+.main-text {
+	font-size: 104%;
+	line-height: 1.7em;
+	color: #383838;
+	}
+
+.main-text a {
+	color: green;
+	}
+	
+	@media all and (max-width: 575px) {
+		.views-slideshow-cycle-main-frame {
+		margin-right: 100%;
+		margin-left: 20px;
+		margin-bottom: 25px;
+		}		    
+	}
+}

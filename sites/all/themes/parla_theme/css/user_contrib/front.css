@@ -1,0 +1,18 @@
+/* line 1, ../../sass/user_contrib/front.scss */
+#current-block .text-header-vertical {
+  position: relative;
+  top: -3.8em;
+  left: -10.8em;
+}
+
+/* line 7, ../../sass/user_contrib/front.scss */
+.text-header-vertical, .text-header-vertical-es {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 2em;
+  color: grey;
+  -moz-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -ms-filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}

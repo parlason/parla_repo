@@ -34,6 +34,8 @@ div.fond-logo {
 	margin-right: 40px;
 	margin-bottom: 20px;
 	}
+
+/* Corrections for mobile phones */
 	
 @media all and (max-width: 640px) { 
 	.header__name-and-slogan {
@@ -50,4 +52,13 @@ div.fond-logo {
 	position: relative;
 	left: 35px;
 	}
+	
+	p#cv-photo-guide {
+	left: 160px;
+	}
+	
+	h1#page-title {
+	font-size: 1.1em;
+	letter-spacing: 0.10em;
+		} 
   }

@@ -891,6 +891,7 @@ font-family: "de-walpergens-pica-n4","de-walpergens-pica",serif;
 font-style: normal;
 font-weight: 400;
 font-size: 1.3em;
+line-height: 1.4em;
 }
 
 
@@ -899,3 +900,17 @@ font-size: 1.3em;
 	top: -2em;
 	}
 	
+/* Participants page */
+p#cv-photo-guide {
+	position: relative;
+	top: -45px;
+	left: 370px;
+	font-size: 95%;
+	color: green;
+	max-width: 300px;
+	}
+	
+.musician-cv {
+	position: relative;
+	top: -30px;
+	}

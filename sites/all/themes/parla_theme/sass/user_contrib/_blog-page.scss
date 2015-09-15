@@ -1,0 +1,101 @@
+.section-blog {
+	.view-frontpage {
+	position: relative;
+		top: -50px;
+		left: 15px;
+		}
+		
+	.field-items {
+		position: relative;
+		left: 15px;
+		}
+	.node-teaser {
+		padding-top: 15px;
+		border-bottom: 1px solid #808080;
+		width: 90%;
+		}
+	.field-name-field-photo-i {
+		margin-bottom: 5px;
+		}
+	.node-three-photo-article .field-name-field-photo-2 img {
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 5px;
+		}
+	.node-three-photo-article .field-name-field-photo-3 img {
+		float: none;
+		margin-right: 4px;
+		margin-bottom: 5px;
+		}
+		h2.node-title {
+			margin-bottom: 0.5em;
+			}
+		
+	}
+	
+.node-type-three-photo-article {
+	.node-three-photo-article .field-name-field-photo-i img {
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 10px;
+		}
+	.node-three-photo-article .field-name-field-photo-2 img {
+		float: left;
+		margin-right: 4px;
+		margin-bottom: 10px;
+		}
+	.node-three-photo-article .field-name-field-photo-3 img {
+		float: none;
+		}
+	}
+	
+.section-post {
+	p#teaser-text {
+		font-family: "de-walpergens-pica", serif;
+		font-size: 1.3em;
+		position: relative;
+		top: -1.3em;
+		left: 0em;
+		margin-bottom: 0;
+		}
+	p.body-text {
+		background-color: #F4FAE3;
+		padding: 10px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		}
+	.bc-player {
+		margin-bottom: 20px;
+		}
+		
+	.media-youtube-video, .media-image {
+		margin-bottom: 20px;
+		}
+		
+		h2.section-title {
+		margin: 0;
+		}
+		
+	p#subtitle {
+		position: relative;
+		top: -2.9em;
+		}
+		
+	.left-sub-container {
+		float: left;
+		padding-right: 20px;
+		}
+	.right-sub-container {
+		padding-left: 20px
+		}
+	.field-item {
+		clear: both;
+		}
+	}
+	
+.section-contact {
+	.contact-header {
+		margin-bottom: 0em;
+		}
+	}
+	

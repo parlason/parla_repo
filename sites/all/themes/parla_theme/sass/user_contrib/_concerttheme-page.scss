@@ -1,0 +1,97 @@
+.section-concert-theme {
+
+	/* Avoid element style height and width (miscalculated) */
+		
+	.views-slideshow-cycle-main-frame, .views_slideshow_cycle_teaser_section {
+		height:  auto !important;
+		width:  auto !important;
+		max-width: 100% !important;
+		}
+	
+	.views-slideshow-cycle-main-frame-row, .views_slideshow_cycle_slide, .views_slideshow_slide views-row-1, .views-row-odd {
+		position: relative !important;
+		}
+		
+	.views-field-field-theme-image-thumbnail {
+		float: left;
+		margin-right: 5px;
+		}	
+	.theme-presentation-text {
+		position: relative;
+		top: -40px;
+		color: green;
+		}
+			
+	.concert-themes-sup-text {
+		position: relative;
+		top: -50px;
+		}	
+	.concert-themes-sup-text p {
+		font-size: 90%;
+		}
+		
+	p.index-text {
+		font-size: 90%;
+		}	
+		
+	p img {
+    	-moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+		}
+	
+	.concert-theme-image img {
+		@include image-shadow-light;
+		}
+		
+	.snake-division {
+		position: relative;
+		top: -50px;
+		margin-left: auto;
+    	margin-right: auto;
+		width: 50%;
+		}
+	
+	@media all and (max-width: 640px) {
+		.snake-division {
+			position: none !important;
+			margin-left: auto;
+    		margin-right: auto;
+    		}
+    	}
+		
+    .theme-transparent-background-title {
+    	display: block;
+		position: absolute;
+		background-color: black;
+		height: 60px;
+		max-width: 630px;
+		top: 333px;
+		left: 0em;
+		opacity: 0.4;
+    	}
+    	
+    @media all and (max-width: 640px) { /* Do not show in cell phones */
+    	.theme-transparent-background-title {
+    		display: none;
+    		}
+    	}	
+    		
+    	
+    .theme-link-text { 	
+    	font-size: 1.4em;
+    	position: relative;
+    	top: -50px;
+    	left: 20px;
+    	color: white;
+    	}
+    	
+    .concert_theme-slideshow {
+    	position: relative;
+    	top: -20px;
+    	}		
+	}
+ 

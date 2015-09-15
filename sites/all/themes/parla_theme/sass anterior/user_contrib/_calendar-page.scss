@@ -1,0 +1,109 @@
+.section-calendar #event-list {
+
+	
+	.views-row-odd .event-background-transparency {
+		position: relative;
+		top: -85px;
+		left: 100px;
+		width: 83%;
+		max-width: 80%;
+		height: 81px;
+		background-color: green;
+		opacity: 0.6;
+		-moz-opacity: 0.6;
+		}
+
+	.views-row-even .event-background-transparency {
+		position: relative;
+		top: -85px;
+		left: 100px;
+		width: 83%;
+		max-width: 80%;
+		height: 81px;
+		background-color: #F0B900;;
+		opacity: 0.6;
+		-moz-opacity: 0.6;
+		}
+		
+	.event-date {
+		position: relative;
+		top: -163px;
+		left: 110px;
+		font-weight: bolder;
+		max-width: 80%;
+
+		}
+	
+	.event-program {
+		position: relative;
+		top: -186px;
+		left: 450px;
+		font-weight: bolder;
+		max-width: 80%;
+		}
+		
+	@media all and (max-width: 640px) {
+		.event-program {
+			visibility: hidden;
+    		}
+		}
+		
+	.event-teaser {
+		position: relative;
+		top: -186px;
+		left: 110px;
+		max-width: 80%;
+
+		}
+	
+	.event-address {
+		position: relative;
+		top: -204px;
+		left: 110px;	
+		font-size: 0.9em;
+		max-width: 80%;
+
+		}
+		
+	.event-location {
+		position: relative;
+		top: -227px;
+		left: 110px;
+		font-size: 0.9em;
+		max-width: 80%;
+	
+		}
+	
+	.event-artist {
+		position: relative;
+		top: -270px;
+		left: 451px;
+		font-size: 0.8em;
+		color: white;	
+		max-width: 80%;
+		}
+		
+	@media all and (max-width: 640px) {
+		.event-artist {
+			visibility: hidden;
+    		}
+    	}
+		
+	li.event-row {
+		margin-bottom: -249px;
+		max-width: 100%;
+		}
+		
+	.views-row-odd {
+		color: white;
+		}
+	
+	.views-row-odd a {
+		color: white;
+		}
+		
+	.views-row-even a {
+		color: black;
+		}
+
+}

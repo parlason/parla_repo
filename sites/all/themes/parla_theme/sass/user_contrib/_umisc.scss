@@ -1,0 +1,100 @@
+/* Arrange elements in Favicon gallery */
+
+
+.view-favicon-gallery .views-row {
+	float: left;
+	max-width: 25%;
+}
+
+
+
+/* Add a 40px padding to left side of 2. sidebar */
+.region-sidebar-second {
+	padding-left: 40px;
+	}
+	
+/* Align Header and Site-slogan in the center */
+.header__name-and-slogan {
+	padding-left: 0px;
+    }
+    
+.header__name-and-slogan #site-slogan {
+	text-align: center;
+}
+
+/* Move the logo outside of the frame */
+.header__logo {
+	margin-left: -40px;
+	}
+	
+/* Style for language switch block */
+
+#block-locale-language {
+	border: medium none;
+	display: block;
+	position: absolute;
+	top: -1.5em;
+	right: 0;
+	width: auto;
+	margin-bottom: 0em;
+	}
+
+#block-locale-language ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+	line-height: 1em;
+	}
+
+#block-locale-language ul li {
+	font-size: 70%;
+	font-weight: 100;
+	border-left: 1px solid grey;
+	float: left;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	}
+
+	
+/* Align elements in credit block, Footer */
+
+div.fond-logo {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 20px;
+	}
+
+/* General corrections for mobile phones */
+	
+@media all and (max-width: 640px) { 
+	.header__name-and-slogan {
+		padding-left: 20px;
+		clear: both;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		}
+		
+	h1#site-name {
+		font-size: 2.1em;
+		text-align: center;
+		}
+		
+	.header__logo {
+	position: relative;
+	left: 35px;
+	}
+	
+	p#cv-photo-guide {
+	left: 160px;
+	}
+	
+	h1#page-title {
+		font-size: 1.4em;
+		letter-spacing: 0.13em;
+		}
+	
+	#block-locale-language {
+		margin-top: 137px;
+		} 
+  }

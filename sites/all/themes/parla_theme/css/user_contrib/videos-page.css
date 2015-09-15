@@ -1,0 +1,95 @@
+/* line 1, ../../sass/user_contrib/videos-page.scss */
+.section-video #block-views-video-index-block, .section-video #block-views-video-index-block-1, .section-video #block-views-video-index-block-2 {
+  position: relative;
+  top: -50px;
+  left: -10px;
+}
+
+/* line 9, ../../sass/user_contrib/videos-page.scss */
+.section-video .view-video-index ul {
+  list-style: none;
+}
+/* line 12, ../../sass/user_contrib/videos-page.scss */
+.section-video .view-video-index ul li {
+  display: inline-block;
+}
+
+/* line 18, ../../sass/user_contrib/videos-page.scss */
+.section-video .views-field-field-video-link {
+  margin-right: 5px;
+}
+
+/* line 22, ../../sass/user_contrib/videos-page.scss */
+.section-video .view-video-index .views-field-title {
+  display: block;
+  max-height: 0px;
+}
+
+/* line 28, ../../sass/user_contrib/videos-page.scss */
+.section-video .media-youtube-video iframe {
+  max-width: 100%;
+}
+
+/* line 33, ../../sass/user_contrib/videos-page.scss */
+.section-video .video-index-title {
+  position: relative;
+  top: 100px;
+  left: 7px;
+  z-index: 4;
+  color: white;
+  -o-text-overflow: ellipsis;
+  /* Opera */
+  text-overflow: ellipsis;
+  /* IE, Safari (WebKit) */
+  overflow: hidden;
+  /* don't show excess chars */
+  white-space: nowrap;
+  /* force single line */
+  width: 13em;
+  /* 180px; */
+  /* fixed width */
+  font-size: 0.7em;
+}
+
+/* line 47, ../../sass/user_contrib/videos-page.scss */
+.section-video .video-index-title a:link {
+  color: white;
+}
+
+/* line 51, ../../sass/user_contrib/videos-page.scss */
+.section-video .video-index-title-background-transparent {
+  display: block;
+  background-color: green;
+  height: 19px;
+  left: 0px;
+  opacity: 0.6;
+  position: relative;
+  top: 127px;
+  width: 194px;
+  z-index: 3;
+}
+
+/* Video in 2. sidebar */
+/* line 65, ../../sass/user_contrib/videos-page.scss */
+.section-video .latest-video-block .video-index-title {
+  position: relative;
+  top: 102px;
+  left: 12px;
+}
+
+/* Video in 2. sidebar */
+/* line 73, ../../sass/user_contrib/videos-page.scss */
+.section-video .latest-video-block .video-index-title-background-transparent {
+  top: 127px;
+  left: 5px;
+}
+
+/* line 78, ../../sass/user_contrib/videos-page.scss */
+#fb-root {
+  display: none;
+}
+
+/* line 82, ../../sass/user_contrib/videos-page.scss */
+.fb_iframe_widget, .fb_iframe_widget span, .fb_iframe_widget span iframe[style] {
+  width: 100% !important;
+}
