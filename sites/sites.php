@@ -58,13 +58,16 @@
 /* Set the server name */
  $sites[$_SERVER['SERVER_NAME']] = 'viaartis.info';
  $sites[$_SERVER['SERVER_NAME'] . ".songbook"] = 'viaartis.info.songbook-from-eldorado';
- $sites[$_SERVER['SERVER_NAME'] . ".art"] = 'viaartis.info.art-of-touch'; 
+ $sites[$_SERVER['SERVER_NAME'] . ".art"] = 'viaartis.info.art-of-touch';
+ $sites[$_SERVER['SERVER_NAME'] . ".songbook-from-eldorado"] = 'viaartis.info.songbook-from-eldorado';
+ $sites[$_SERVER['SERVER_NAME'] . ".art-of-touch"] = 'viaartis.info.art-of-touch';  
  $sites[$_SERVER['SERVER_NAME'] . ".war"] = 'viaartis.info.war';
  $sites[$_SERVER['SERVER_NAME'] . ".escarraman"] = 'viaartis.info.escarraman';  
  $sites['escarraman.com'] = 'viaartis.info.escarraman';
  $sites['www.escarraman.com'] = 'viaartis.info.escarraman';
  $sites['flamenco.info'] = 'viaartis.info.art-of-touch';
  $sites['www.flamenco.info'] = 'viaartis.info.art-of-touch';
+ 
 
 
  

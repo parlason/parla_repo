@@ -220,14 +220,16 @@ div#main-menu-transparent {
    
 nav#main-menu a {
 	font-family: 'Josefin Sans', sans-serif;
-	font-variant: small-caps;
-	font-size: 0.9em;
+	/* font-variant: small-caps; */
+	font-size: 1em;
 	text-align: left;
 	letter-spacing: 1.1px;
 	color: #FFF;
 	font-style: normal;
 	font-weight: lighter;
 	border: none;
+	border-right: 1px solid white;
+	padding-right: 15px;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-font-smoothing: subpixel-antialiased;
 	-o-font-smoothing: subpixel-antialiased;

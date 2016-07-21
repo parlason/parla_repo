@@ -221,14 +221,16 @@ div#main-menu-transparent {
    
 nav#main-menu a {
 	font-family: 'Josefin Sans', sans-serif;
-	font-variant: small-caps;
+	/* font-variant: small-caps; */
 	font-size: 0.9em;
 	text-align: left;
-	letter-spacing: 1.1px;
+	letter-spacing: 1px;
 	color: #FFF;
 	font-style: normal;
 	font-weight: lighter;
 	border: none;
+	border-right: 1px solid white;
+	padding-right: 15px;
 	-webkit-font-smoothing: subpixel-antialiased;
 	-moz-font-smoothing: subpixel-antialiased;
 	-o-font-smoothing: subpixel-antialiased;
@@ -240,7 +242,33 @@ nav#main-menu a {
 	position: relative;
 	top: -30px;
 	}
-	
+
+/* Language menu */
+#block-locale-language {
+    border: medium none;
+    display: block;
+    position: absolute;
+    top: -30px;
+    right: 0;
+    width: auto;
+    margin-bottom: 0em;
+  }
+
+#block-locale-language ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1em;
+}
+
+#block-locale-language ul li {
+	font-size: 70%;
+	font-weight: 100;
+	border-left: 1px solid grey;
+	float: left;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	}	
 
 /**
  * Links
@@ -914,3 +942,13 @@ p#cv-photo-guide {
 	position: relative;
 	top: -30px;
 	}
+	
+/* Front-page */
+.front-page-video {
+	position: relative;
+	top: 30px;
+	left: 30px;
+	margin-bottom: 30px;
+	max-width: 100%;
+	}
+	
