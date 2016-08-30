@@ -1,0 +1,491 @@
+/* HEADER */
+/* line 3, ../sass/art_theme_adds.scss */
+#name-and-slogan {
+  /* Wrapper for website name and slogan */
+  float: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 1.4em;
+  left: -2.2em;
+}
+
+/* line 14, ../sass/art_theme_adds.scss */
+#site-name {
+  /* The name of the website */
+  margin: 0;
+  font-size: 2.9em;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+}
+
+/* ____________________________________________________________________ */
+/* SECOND SIDE MENU */
+/*
+#subscription-block {
+border: 0px solid grey;
+padding: 15px;
+position: relative;
+top: -430px;
+left: 48px;
+width: 170px;
+padding-bottom: 0px;
+margin-bottom: 20px;
+}
+*/
+/* line 38, ../sass/art_theme_adds.scss */
+#block-block-9, #block-block-10 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto;
+}
+
+/* -------------------------------------------------- */
+/* MENU */
+/* line 50, ../sass/art_theme_adds.scss */
+#navigation ul.links li,
+#navigation ul.menu li {
+  /* A simple method to get navigation links to appear in one line. */
+  float: left;
+  /* LTR */
+  padding: 0 20px 0 0;
+  /* LTR */
+  list-style-type: none;
+  list-style-image: none;
+  z-index: 10;
+}
+
+/* -------------------------------------------------- */
+/* ART page */
+/* line 62, ../sass/art_theme_adds.scss */
+#collapse-text-text h2 {
+  position: relative;
+  left: -0.3em;
+  font-size: 1.4em;
+}
+
+/* line 68, ../sass/art_theme_adds.scss */
+.collapse-text-fieldset h2 {
+  font-size: 1.4em;
+  margin-top: 0em;
+  line-height: 1.5em;
+}
+
+/* line 74, ../sass/art_theme_adds.scss */
+.front .collapse-text-text h2 {
+  position: relative;
+  left: -0.3em;
+  font-size: 1.7em;
+}
+
+/* line 80, ../sass/art_theme_adds.scss */
+.front #collapse-text-background {
+  width: 613px;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+/* line 87, ../sass/art_theme_adds.scss */
+.front fieldset.collapse-text-fieldset {
+  border: 0px;
+}
+
+/* line 91, ../sass/art_theme_adds.scss */
+.front #collapse-text-text {
+  padding-top: 1.2em;
+}
+
+/* line 95, ../sass/art_theme_adds.scss */
+.front .field-name-body {
+  position: relative;
+  left: 25px;
+  top: -3em;
+  width: 39em;
+}
+
+/* ____________________________________________________________________ */
+/* CONCERT page */
+/* line 107, ../sass/art_theme_adds.scss */
+.collapse-text-fieldset h2 {
+  font-size: 1.4em;
+  margin-top: 0em;
+  line-height: 1.5em;
+}
+
+/* line 113, ../sass/art_theme_adds.scss */
+.collapse-text-text h2 {
+  position: relative;
+  left: -0.3em;
+  font-size: 1.7em;
+}
+
+/* line 119, ../sass/art_theme_adds.scss */
+.collapse-text-text #concert-program h2 {
+  position: relative;
+  top: 0.1em;
+  left: 0.85em;
+}
+
+/* line 125, ../sass/art_theme_adds.scss */
+.section-concert table.views-view-grid {
+  position: relative;
+  top: -0.4em;
+  left: 0;
+}
+
+/* line 131, ../sass/art_theme_adds.scss */
+.section-concert table.views-view-grid td {
+  padding-right: 5px;
+}
+
+/* line 135, ../sass/art_theme_adds.scss */
+.section-concert table.views-view-grid td img {
+  border: 1px solid grey;
+}
+
+/* line 139, ../sass/art_theme_adds.scss */
+.section-concert .date-venue-concert-page {
+  position: relative;
+  top: -1.0em;
+  left: -0.5em;
+}
+
+/* line 145, ../sass/art_theme_adds.scss */
+.section-concert .download-pdf-concert-page {
+  position: relative;
+  top: -3.9em;
+  left: -0.5em;
+}
+
+/* line 151, ../sass/art_theme_adds.scss */
+.section-concert #collapse-text-background {
+  width: 613px;
+  height: 43%;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+/* line 158, ../sass/art_theme_adds.scss */
+.section-concert .trans-back-concert-page {
+  display: block;
+  width: 613px;
+}
+
+/* line 163, ../sass/art_theme_adds.scss */
+.section-concert fieldset.collapse-text-fieldset {
+  border: 0px solid grey;
+  height: 80%;
+}
+
+/* line 168, ../sass/art_theme_adds.scss */
+.section-concert #collapse-text-text {
+  padding-top: 1.2em;
+  width: 35em;
+}
+
+/* line 173, ../sass/art_theme_adds.scss */
+.section-concert .download-pdf-concert-page a {
+  color: green;
+}
+
+/* line 178, ../sass/art_theme_adds.scss */
+.section-concert #concert_programs-block .item-list {
+  position: relative;
+  top: -40px;
+  left: -5px;
+  padding: 2em;
+  padding-left: 0.5em;
+  padding-right: 3.2em;
+  background-color: black;
+  opacity: 0.6;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+/* line 191, ../sass/art_theme_adds.scss */
+.section-concert #concert_programs-block .item-list p {
+  position: relative;
+  top: -0.5em;
+  color: white;
+  margin: 0em;
+}
+
+/* line 198, ../sass/art_theme_adds.scss */
+.section-concert .collapse-text-text ul {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 204, ../sass/art_theme_adds.scss */
+p#collaboration {
+  position: relative;
+  top: -37em;
+  left: 4em;
+  width: 12em;
+  color: #808080;
+}
+
+/* line 212, ../sass/art_theme_adds.scss */
+.section-concert .field-name-body {
+  position: relative;
+  left: 25px;
+  top: -3.4em;
+  width: 39em;
+}
+
+/* ____________________________________________________________________ */
+/* PARTICIPANTS page */
+/* line 224, ../sass/art_theme_adds.scss */
+body.section-participants #block-views-musician-cv-block, #block-views-musician-cv-block-1, #block-views-musician-cv-block-2 {
+  position: relative;
+  top: -4.1em;
+}
+
+/* line 229, ../sass/art_theme_adds.scss */
+body.section-participants .views-slideshow-pager-fields {
+  position: relative;
+  left: 535px;
+  top: 41px;
+  width: 150px;
+  z-index: 3;
+}
+
+/* line 237, ../sass/art_theme_adds.scss */
+body.section-participants .views_slideshow_main {
+  display: block;
+  width: 600px;
+  position: relative;
+  top: -210px;
+  left: 20px;
+}
+
+/* line 245, ../sass/art_theme_adds.scss */
+.views-slideshow-cycle-main-frame-row-item .views-field-title {
+  /* Necessary to expand the in-line width by jquery */
+  width: 530px;
+}
+
+/* line 254, ../sass/art_theme_adds.scss */
+.cv-title-transparent {
+  background-color: green;
+  height: 34px;
+  left: 0px;
+  opacity: 0.4;
+  position: relative;
+  top: -40px;
+  width: 250px;
+  z-index: 3;
+}
+
+/* line 265, ../sass/art_theme_adds.scss */
+.cv-title {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.4em;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  top: -35px;
+  left: 10px;
+  z-index: 4;
+}
+
+/* .flexslider .slides img {width: auto; display: block;} */
+/* line 278, ../sass/art_theme_adds.scss */
+.views-field-field-cv-text {
+  position: relative;
+  top: -0em;
+  height: 30em;
+  width: 33em;
+}
+
+/* line 285, ../sass/art_theme_adds.scss */
+.views-field-field-cv-text .collapse-text-background {
+  margin-left: -16px;
+  position: absolute;
+  top: 0;
+  background-color: #808080;
+  opacity: 0.2;
+  width: 505px;
+  height: 105%;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+/* line 297, ../sass/art_theme_adds.scss */
+.views-field-field-cv-text .collapse-text-text {
+  padding-top: 0em;
+}
+
+/* line 301, ../sass/art_theme_adds.scss */
+.section-participants .book-navigation {
+  position: relative;
+  top: 5em;
+  margin-bottom: 50px;
+}
+
+/* line 307, ../sass/art_theme_adds.scss */
+.collapse-text-text ul {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 313, ../sass/art_theme_adds.scss */
+.section-participants .collapse-text-text {
+  width: 510px;
+  padding-top: 0em;
+}
+
+/* line 318, ../sass/art_theme_adds.scss */
+.section-participants .fieldset-wrapper .collapse-text-text {
+  position: relative;
+  top: 0em;
+  width: 460px;
+  padding-top: 0;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+/* line 327, ../sass/art_theme_adds.scss */
+.section-participants .fieldset-wrapper .collapse-text-text p {
+  position: relative;
+  top: 1.5em;
+}
+
+/* line 333, ../sass/art_theme_adds.scss */
+.section-participants .fieldset-wrapper {
+  position: relative;
+  top: 0;
+}
+
+/* line 338, ../sass/art_theme_adds.scss */
+.collapsible a.fieldset-title {
+  font-family: "de-walpergens-pica";
+  font-size: 1.3em;
+  color: #808080;
+}
+
+/* line 344, ../sass/art_theme_adds.scss */
+body.section-participants fieldset.collapse-text-fieldset {
+  position: relative;
+  top: -0.5em;
+  border: 0px;
+  margin: 0;
+}
+
+/* ____________________________________________________________________ */
+/* PRESS TEXT page */
+/* line 358, ../sass/art_theme_adds.scss */
+.node-type-press-text .node-press-text {
+  position: relative;
+  top: -2em;
+}
+
+/* line 363, ../sass/art_theme_adds.scss */
+.node-type-press-text .field-name-field-link-to-downloadable-text {
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 369, ../sass/art_theme_adds.scss */
+.node-type-press-text .field-name-field-link-to-downloadable-text a {
+  color: #808080;
+}
+
+/* ____________________________________________________________________ */
+/* PRESS page */
+/* line 380, ../sass/art_theme_adds.scss */
+.section-press .view-press-photo-gallery {
+  position: relative;
+  left: 20px;
+  width: 625px;
+}
+
+/* line 387, ../sass/art_theme_adds.scss */
+.section-press .view-press-text-gallery {
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 625px;
+}
+
+/* line 394, ../sass/art_theme_adds.scss */
+.section-press .views-row {
+  display: inline-block;
+}
+
+/* line 398, ../sass/art_theme_adds.scss */
+.section-press article.node-page {
+  position: relative;
+  top: -4em;
+  left: 15px;
+}
+
+/* line 405, ../sass/art_theme_adds.scss */
+#text-gallery-block {
+  width: 600px;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 413, ../sass/art_theme_adds.scss */
+#text-gallery-block a {
+  color: #808080;
+}
+
+/* line 417, ../sass/art_theme_adds.scss */
+#text-gallery-block .views-row-first {
+  position: relative;
+  clear: both;
+  top: 1em;
+}
+
+/* line 424, ../sass/art_theme_adds.scss */
+.section-press .field-items {
+  position: relative;
+  top: 2em;
+}
+
+/* line 429, ../sass/art_theme_adds.scss */
+.section-press .text-header {
+  width: 30em;
+}
+
+/* line 433, ../sass/art_theme_adds.scss */
+.views-field-field-photo-horizontal, .views-field-field-photo-vertical {
+  padding-right: 5px;
+}
+
+/* ____________________________________________________________________ */
+/* SECOND SIDE MENU *(
+
+#subscription-block {
+border: 0px solid grey;
+padding: 15px;
+position: relative;
+top: -430px;
+left: 48px;
+width: 170px;
+padding-bottom: 0px;
+margin-bottom: 20px;
+}
+
+/* ____________________________________________________________________ */
+/* Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 461, ../sass/art_theme_adds.scss */
+  #name-and-slogan {
+    top: 3em;
+    left: -7em;
+  }
+
+  /* line 465, ../sass/art_theme_adds.scss */
+  #navigation ul.links li, #navigation ul.menu li {
+    padding: 0 10px 0 0;
+  }
+}

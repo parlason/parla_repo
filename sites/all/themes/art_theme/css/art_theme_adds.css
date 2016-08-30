@@ -1,27 +1,15 @@
 /* HEADER */
-
-#name-and-slogan { /* Wrapper for website name and slogan */
-  float: left;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  top: 1.4em;
-  left: -2.2em;
+/* line 5, ../sass/art_theme_adds.scss */
+h1#site-name {
+  /* The name of the website */
+  margin: 0;
+  font-size: 2.5em;
+  letter-spacing: 0.07em;
+  line-height: 1.5em;
 }
 
-
-#site-name { /* The name of the website */
-  margin: 0;
-  font-size: 2.9em;
-  letter-spacing: 0.1em;
-line-height: 1.5em;
-} 
-
 /* ____________________________________________________________________ */
-
 /* SECOND SIDE MENU */
-
 /*
 #subscription-block {
 border: 0px solid grey;
@@ -34,409 +22,441 @@ padding-bottom: 0px;
 margin-bottom: 20px;
 }
 */
-
+/* line 29, ../sass/art_theme_adds.scss */
 #block-block-9, #block-block-10 {
-position: relative;
-top: 0;
-left: 0;
-width: auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: auto;
 }
 
 /* -------------------------------------------------- */
-
 /* MENU */
-
+/* line 41, ../sass/art_theme_adds.scss */
 #navigation ul.links li,
-#navigation ul.menu li { /* A simple method to get navigation links to appear in one line. */
-  float: left; /* LTR */
-  padding: 0 20px 0 0; /* LTR */
+#navigation ul.menu li {
+  /* A simple method to get navigation links to appear in one line. */
+  float: left;
+  /* LTR */
+  padding: 0 20px 0 0;
+  /* LTR */
   list-style-type: none;
   list-style-image: none;
   z-index: 10;
 }
 
+/* line 49, ../sass/art_theme_adds.scss */
+nav#main-menu {
+  background: rgba(6, 170, 72, 0.4);
+  padding: 0 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
 /* -------------------------------------------------- */
-
 /* ART page */
-
+/* line 60, ../sass/art_theme_adds.scss */
 #collapse-text-text h2 {
-	position: relative;
-	left: -0.3em;
-	font-size: 1.4em;
-	}
+  position: relative;
+  left: -0.3em;
+  font-size: 1.4em;
+}
 
+/* line 66, ../sass/art_theme_adds.scss */
 .collapse-text-fieldset h2 {
-	font-size: 1.4em;
-	margin-top: 0em;
-	line-height: 1.5em;
-	}
-	
+  font-size: 1.4em;
+  margin-top: 0em;
+  line-height: 1.5em;
+}
+
+/* line 72, ../sass/art_theme_adds.scss */
 .front .collapse-text-text h2 {
-	position: relative;
-	left: -0.3em;
-	font-size: 1.7em;
-	}
-	
+  position: relative;
+  left: -0.3em;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+}
+
+/* line 79, ../sass/art_theme_adds.scss */
 .front #collapse-text-background {
-	width: 613px;
-	border: 1px solid;
-	border-radius: 7px;
+  width: 613px;
+  border: 1px solid;
+  border-radius: 7px;
+}
 
-	}
-	
+/* line 86, ../sass/art_theme_adds.scss */
 .front fieldset.collapse-text-fieldset {
-border: 0px;
+  border: 0px;
 }
 
+/* line 90, ../sass/art_theme_adds.scss */
 .front #collapse-text-text {
-	padding-top: 1.2em;
-	}
-	
+  padding-top: 1.2em;
+}
+
+/* line 94, ../sass/art_theme_adds.scss */
 .front .field-name-body {
-	position: relative;
-	left: 25px;
-	top: -3em;
-	width: 39em;
-	}
-	
+  position: relative;
+  left: 25px;
+  margin-left: 10px;
+  max-width: 100%;
+}
+
 /* ____________________________________________________________________ */
-
-
 /* CONCERT page */
-
+/* line 106, ../sass/art_theme_adds.scss */
 .collapse-text-fieldset h2 {
-	font-size: 1.4em;
-	margin-top: 0em;
-	line-height: 1.5em;
-	}
-	
+  font-size: 1.4em;
+  margin-top: 0em;
+  line-height: 1.5em;
+}
+
+/* line 112, ../sass/art_theme_adds.scss */
 .collapse-text-text h2 {
-	position: relative;
-	left: -0.3em;
-	font-size: 1.7em;
-	}
-	
+  position: relative;
+  left: -0.3em;
+  font-size: 1.7em;
+}
+
+/* line 118, ../sass/art_theme_adds.scss */
 .collapse-text-text #concert-program h2 {
-	position: relative;
-	top: 0.1em;
-	left: 0.85em;
-	}
+  position: relative;
+  top: 0.1em;
+  left: 0.85em;
+}
 
+/* line 124, ../sass/art_theme_adds.scss */
 .section-concert table.views-view-grid {
-	position: relative;
-	top: -0.4em;
-	left: 0;
-	}
-	
+  position: relative;
+  top: -0.4em;
+  left: 0;
+}
+
+/* line 130, ../sass/art_theme_adds.scss */
 .section-concert table.views-view-grid td {
-	padding-right: 5px;
-	}
-	
-.section-concert table.views-view-grid td img{
-	border: 1px solid grey;
-	}
-	
+  padding-right: 5px;
+}
+
+/* line 134, ../sass/art_theme_adds.scss */
+.section-concert table.views-view-grid td img {
+  border: 1px solid grey;
+}
+
+/* line 138, ../sass/art_theme_adds.scss */
 .section-concert .date-venue-concert-page {
-	position: relative;
-	top: -1.0em;
-	left: -0.5em;
-	}
-	
+  position: relative;
+  top: -1.0em;
+  left: -0.5em;
+}
+
+/* line 144, ../sass/art_theme_adds.scss */
 .section-concert .download-pdf-concert-page {
-	position: relative;
-	top: -3.9em;
-	left: -0.5em;
-	}
-	
+  position: relative;
+  top: -3.9em;
+  left: -0.5em;
+}
+
+/* line 150, ../sass/art_theme_adds.scss */
 .section-concert #collapse-text-background {
-	width: 613px;
-	height: 43%;
-	border: 1px solid;
-	border-radius: 7px;
-	}
-	
+  width: 613px;
+  height: 43%;
+  border: 1px solid;
+  border-radius: 7px;
+}
+
+/* line 157, ../sass/art_theme_adds.scss */
 .section-concert .trans-back-concert-page {
-	display: block;
-	width: 613px;
-	}
-	
+  display: block;
+  width: 613px;
+}
+
+/* line 162, ../sass/art_theme_adds.scss */
 .section-concert fieldset.collapse-text-fieldset {
-border: 0px solid grey;
-height: 80%;
+  border: 0px solid grey;
+  height: 80%;
 }
 
+/* line 167, ../sass/art_theme_adds.scss */
 .section-concert #collapse-text-text {
-	padding-top: 1.2em;
-	width: 35em;
-	}
-	
+  padding-top: 1.2em;
+  width: 35em;
+}
+
+/* line 172, ../sass/art_theme_adds.scss */
 .section-concert .download-pdf-concert-page a {
-	color: green;
-	}
-	
-	
+  color: green;
+}
+
+/* line 177, ../sass/art_theme_adds.scss */
 .section-concert #concert_programs-block .item-list {
-	position: relative;
-	top: -40px;
-	left: -5px;
-	padding: 2em;
-	padding-left: 0.5em;
-	padding-right: 3.2em;
-	background-color: black;
-	opacity: 0.6;
-	border: 1px solid;
-	border-radius:7px;
-	}
+  position: relative;
+  top: -40px;
+  left: -5px;
+  padding: 2em;
+  padding-left: 0.5em;
+  padding-right: 3.2em;
+  background-color: black;
+  opacity: 0.6;
+  border: 1px solid;
+  border-radius: 7px;
+}
 
+/* line 190, ../sass/art_theme_adds.scss */
 .section-concert #concert_programs-block .item-list p {
-	position: relative;
-	top: -0.5em;
-	color: white;
-	margin: 0em;
-	}
+  position: relative;
+  top: -0.5em;
+  color: white;
+  margin: 0em;
+}
 
+/* line 197, ../sass/art_theme_adds.scss */
 .section-concert .collapse-text-text ul {
-	font-family: 'EB Garamond';
-	font-style: normal;
-	font-weight: normal;
-	}
-	
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* line 203, ../sass/art_theme_adds.scss */
 p#collaboration {
-	position: relative;
-	top: -37em;
-	left: 4em;
-	width: 12em;
-	color: #808080;
-	}
-	
+  position: relative;
+  top: -37em;
+  left: 4em;
+  width: 12em;
+  color: #808080;
+}
+
+/* line 211, ../sass/art_theme_adds.scss */
 .section-concert .field-name-body {
-	position: relative;
-	left: 25px;
-	top: -3.4em;
-	width: 39em;
-	}
-	
+  position: relative;
+  left: 25px;
+}
+
 /* ____________________________________________________________________ */
-
-
 /* PARTICIPANTS page */
-
+/* line 221, ../sass/art_theme_adds.scss */
 body.section-participants #block-views-musician-cv-block, #block-views-musician-cv-block-1, #block-views-musician-cv-block-2 {
-position: relative;
-top: -4.1em;
+  position: relative;
+  top: -4.1em;
 }
 
+/* line 226, ../sass/art_theme_adds.scss */
 body.section-participants .views-slideshow-pager-fields {
-position: relative;
-left: 535px;
-top: 41px;
-width: 150px;
-z-index: 3;
+  position: relative;
+  left: 535px;
+  top: 41px;
+  width: 150px;
+  z-index: 3;
 }
 
+/* line 234, ../sass/art_theme_adds.scss */
 body.section-participants .views_slideshow_main {
-display: block;
-width: 600px;
-position: relative;
-top: -210px;
-left: 20px;
+  display: block;
+  width: 600px;
+  position: relative;
+  top: -210px;
+  left: 20px;
 }
 
+/* line 242, ../sass/art_theme_adds.scss */
 .views-slideshow-cycle-main-frame-row-item .views-field-title {
-/* Necessary to expand the in-line width by jquery */
-width: 530px;
+  /* Necessary to expand the in-line width by jquery */
+  width: 530px;
 }
 
-.views-field-field-cv-text {
-
-}
-
+/* line 251, ../sass/art_theme_adds.scss */
 .cv-title-transparent {
-background-color: green;
-height: 34px;
-left: 0px;
-opacity: 0.4;
-position: relative;
-top: -40px;
-width: 250px;
-z-index: 3;
+  background-color: green;
+  height: 34px;
+  left: 0px;
+  opacity: 0.4;
+  position: relative;
+  top: -40px;
+  width: 250px;
+  z-index: 3;
 }
 
+/* line 262, ../sass/art_theme_adds.scss */
 .cv-title {
-font-family: 'Josefin Sans', sans-serif;
-font-size: 1.4em;
-color: white;
-font-weight: 600;
-position: relative;
-top: -35px;
-left: 10px;
-z-index: 4;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.4em;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  top: -35px;
+  left: 10px;
+  z-index: 4;
 }
 
 /* .flexslider .slides img {width: auto; display: block;} */
-
+/* line 275, ../sass/art_theme_adds.scss */
 .views-field-field-cv-text {
-position: relative;
-top: -0em;
-height: 30em;
-width: 33em;
+  position: relative;
+  top: -0em;
+  height: 30em;
+  width: 33em;
 }
 
+/* line 282, ../sass/art_theme_adds.scss */
 .views-field-field-cv-text .collapse-text-background {
-margin-left: -16px;
-position: absolute;
-top: 0;
-background-color: #808080;
-opacity: 0.2;
-width: 505px;
-height: 105%;
-border: 1px solid;
-border-radius: 7px;
+  margin-left: -16px;
+  position: absolute;
+  top: 0;
+  background-color: #808080;
+  opacity: 0.2;
+  width: 505px;
+  height: 105%;
+  border: 1px solid;
+  border-radius: 7px;
 }
 
+/* line 294, ../sass/art_theme_adds.scss */
 .views-field-field-cv-text .collapse-text-text {
-padding-top: 0em;
+  padding-top: 0em;
 }
 
+/* line 298, ../sass/art_theme_adds.scss */
 .section-participants .book-navigation {
-position: relative;
-top: 5em;
-margin-bottom: 50px;
+  position: relative;
+  top: 5em;
+  margin-bottom: 50px;
 }
 
+/* line 304, ../sass/art_theme_adds.scss */
 .collapse-text-text ul {
-font-family: 'EB Garamond';
-font-style: normal;
-font-weight: normal;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
 }
 
+/* line 310, ../sass/art_theme_adds.scss */
 .section-participants .collapse-text-text {
-width: 510px;
-padding-top: 0em;
+  width: 510px;
+  padding-top: 0em;
 }
 
+/* line 315, ../sass/art_theme_adds.scss */
 .section-participants .fieldset-wrapper .collapse-text-text {
-position: relative;
-top: 0em;
-width: 460px;
-padding-top: 0;
-padding-left: 0.5em;
-padding-bottom: 0.5em;
+  position: relative;
+  top: 0em;
+  width: 460px;
+  padding-top: 0;
+  padding-left: 0.5em;
+  padding-bottom: 0.5em;
 }
 
+/* line 324, ../sass/art_theme_adds.scss */
 .section-participants .fieldset-wrapper .collapse-text-text p {
-position: relative;
-top: 1.5em;
+  position: relative;
+  top: 1.5em;
 }
 
-
+/* line 330, ../sass/art_theme_adds.scss */
 .section-participants .fieldset-wrapper {
-position: relative;
-top: 0;
+  position: relative;
+  top: 0;
 }
 
+/* line 335, ../sass/art_theme_adds.scss */
 .collapsible a.fieldset-title {
-font-family: "de-walpergens-pica";
-font-size: 1.3em;
-color: #808080;
+  font-family: "de-walpergens-pica";
+  font-size: 1.3em;
+  color: #808080;
 }
 
+/* line 341, ../sass/art_theme_adds.scss */
 body.section-participants fieldset.collapse-text-fieldset {
-position: relative;
-top: -0.5em;
-border: 0px;
-margin: 0;
+  position: relative;
+  top: -0.5em;
+  border: 0px;
+  margin: 0;
 }
 
-
 /* ____________________________________________________________________ */
-
-
-
 /* PRESS TEXT page */
-
+/* line 355, ../sass/art_theme_adds.scss */
 .node-type-press-text .node-press-text {
-	position: relative;
-	top: -2em;
-	}
+  position: relative;
+  top: -2em;
+}
 
+/* line 360, ../sass/art_theme_adds.scss */
 .node-type-press-text .field-name-field-link-to-downloadable-text {
-font-family: 'EB Garamond';
-font-style: normal;
-font-weight: normal;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
 }
 
+/* line 366, ../sass/art_theme_adds.scss */
 .node-type-press-text .field-name-field-link-to-downloadable-text a {
-color: #808080;
+  color: #808080;
 }
 
-
 /* ____________________________________________________________________ */
-
-
-
 /* PRESS page */
-
+/* line 377, ../sass/art_theme_adds.scss */
 .section-press .view-press-photo-gallery {
-position: relative;
-	left: 20px;
-	width: 625px;
-	}
-	
-	
+  position: relative;
+  left: 20px;
+  width: 625px;
+}
+
+/* line 384, ../sass/art_theme_adds.scss */
 .section-press .view-press-text-gallery {
-position: relative;
-	left: 20px;
-	top: 20px;
-	width: 625px;
-	}	
+  position: relative;
+  left: 20px;
+  top: 20px;
+  width: 625px;
+}
 
+/* line 391, ../sass/art_theme_adds.scss */
 .section-press .views-row {
-	display: inline-block;
-	}
+  display: inline-block;
+}
 
+/* line 395, ../sass/art_theme_adds.scss */
 .section-press article.node-page {
-position: relative;
-top: -4em;
-left: 15px;
+  position: relative;
+  top: -4em;
+  left: 15px;
 }
 
-
+/* line 402, ../sass/art_theme_adds.scss */
 #text-gallery-block {
-width: 600px;
-font-family: 'EB Garamond';
-font-style: normal;
-font-weight: normal;
+  width: 600px;
+  font-family: 'EB Garamond';
+  font-style: normal;
+  font-weight: normal;
 }
 
-
-#text-gallery-block a{
-color: #808080;
+/* line 410, ../sass/art_theme_adds.scss */
+#text-gallery-block a {
+  color: #808080;
 }
 
+/* line 414, ../sass/art_theme_adds.scss */
 #text-gallery-block .views-row-first {
-position: relative;
-clear: both;
-top: 1em;
+  position: relative;
+  clear: both;
+  top: 1em;
 }
 
-
+/* line 421, ../sass/art_theme_adds.scss */
 .section-press .field-items {
-position: relative;
-top: 2em;
+  position: relative;
+  top: 2em;
 }
 
-.section-press .text-header	{
-width: 30em;
+/* line 426, ../sass/art_theme_adds.scss */
+.section-press .text-header {
+  width: 30em;
 }
 
+/* line 430, ../sass/art_theme_adds.scss */
 .views-field-field-photo-horizontal, .views-field-field-photo-vertical {
-	padding-right: 5px;
-	}
-
+  padding-right: 5px;
+}
 
 /* ____________________________________________________________________ */
-
 /* SECOND SIDE MENU *(
 
 #subscription-block {
@@ -451,18 +471,16 @@ margin-bottom: 20px;
 }
 
 /* ____________________________________________________________________ */
-
 /* Ipad */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  /* line 458, ../sass/art_theme_adds.scss */
+  #name-and-slogan {
+    top: 3em;
+    left: -7em;
+  }
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) { 
-	    #name-and-slogan {
-		top: 3em;
-		left: -7em;
-		}
-		#navigation ul.links li, #navigation ul.menu li {
-		padding: 0 10px 0 0;
-		}
-}	
+  /* line 462, ../sass/art_theme_adds.scss */
+  #navigation ul.links li, #navigation ul.menu li {
+    padding: 0 10px 0 0;
+  }
+}

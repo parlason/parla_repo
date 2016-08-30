@@ -13,14 +13,14 @@
 
 screenshot  = screenshot.png
 name        = Art_theme
-description = A Parlathe sub-theme
+description = A Parla theme sub-theme
 
 
 
 ; This theme is compatible with Drupal 7 core. And it is a sub-theme of Zen.
 
 core        = 7.x
-base theme  = parlathe
+base theme  = parla_theme
 
 
 
